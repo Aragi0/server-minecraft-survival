@@ -1,0 +1,48 @@
+# Minecraft Server
+logs/
+crash-reports/
+debug/
+session.lock
+# usercache.json
+# whitelist.json
+*.log
+*.dat
+*.old
+*.ldb
+*.mca
+pnpm-lock.yaml
+
+# World data
+world/
+world_nether/
+world_the_end/
+DIM1/
+DIM-1/
+
+# Plugin specific files
+plugins/Essentials/userdata/
+plugins/Essentials/backup/
+plugins/Essentials/update/
+plugins/Essentials/updater/
+plugins/Vault/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Backup files
+*.bak
+*.backup
+*.temp
+*.tmp
+
+# Executables
+*.sh
+*.bat
+*.dylib
+*.so
+*.exe
+*.dll
