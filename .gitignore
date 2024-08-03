@@ -3,8 +3,8 @@ logs/
 crash-reports/
 debug/
 session.lock
-# usercache.json
-# whitelist.json
+usercache.json
+whitelist.json
 *.log
 *.dat
 *.old
