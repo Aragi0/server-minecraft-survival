@@ -11,3 +11,5 @@
 ### Contacto
 
 Para cualquier pregunta o duda, puedes contactar al ls.server.mx@gmail.com
+
+Para mas informacion en la `wiki`
