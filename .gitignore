@@ -11,6 +11,8 @@ whitelist.json
 *.ldb
 *.mca
 pnpm-lock.yaml
+.console_history
+ops.json
 
 # World data
 world/

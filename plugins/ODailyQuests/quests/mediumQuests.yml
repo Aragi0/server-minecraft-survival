@@ -1,0 +1,37 @@
+quests:
+  1:
+    name: "&aPiedra Picada"
+    menu_item: COBBLESTONE
+    description:
+      - "&bPicar 32 piedras."
+      - "&bGanar &c$500&b."
+    quest_type: BREAK
+    required_item: COBBLESTONE
+    required_amount: 32
+    reward:
+      reward_type: MONEY
+      amount: 500
+  2:
+    name: "&6&lBloques de Oro"
+    menu_item: GOLD_BLOCK
+    description:
+      - "&eObtener 16 bloques de oro."
+      - "&eGanar &b&m$100"
+    quest_type: GET
+    required_item: GOLD_BLOCK
+    required_amount: 16
+    reward:
+      reward_type: MONEY
+      amount: 100
+  3:
+    name: "Demasiados Zombis"
+    menu_item: ZOMBIE_HEAD
+    description:
+      - "&cMatar &620 &czombis."
+      - "&aGanar &b$200."
+    quest_type: KILL
+    required_entity: ZOMBIE
+    required_amount: 5
+    reward:
+      reward_type: MONEY
+      amount: 200

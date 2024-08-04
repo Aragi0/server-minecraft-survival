@@ -1,0 +1,40 @@
+#✦------------------------------------------------------✦
+#|                      Main Config                    |
+#✦------------------------------------------------------✦
+# RealScoreboard created by joserodpt and maintained by Neziw
+#
+# Useful links:
+#  SpigotMC - https://www.spigotmc.org/resources/22928/
+#  Discord Server - https://discord.gg/t7gfnYZKy8
+#  bStats - https://bstats.org/plugin/bukkit/RealScoreboard/10080
+#  HEX Color Formats: https://github.com/Iridium-Development/IridiumColorAPI
+#  API for Developers: https://github.com/joserodpt/RealScoreboard/blob/master/api.md
+Debug: false
+Config:
+  Prefix: '&fReal&dScoreboard &7| &r'
+  mcMMO-Support: false
+  Check-for-Updates: true
+  Use-Placeholders-In-Scoreboard-Titles: false
+  RealScoreboard-Disabled-By-Default: false
+  Auto-Hide-In-Vanish: true
+  World-Scoreboard-Switch: true
+  Animations:
+    Loop-Delay: 10
+  Reloaded: '&fThe config has been &areloaded&f.'
+  Hours:
+    Formatting: HH:mm:ss
+    Offset: 0
+  Messages:
+    Scoreboard-Toggle:
+      ON: '&fScoreboard turned &aON&f.'
+      OFF: '&fScoreboard turned &cOFF&f.'
+  Disabled-Worlds:
+  - testWorld
+  - ExampleWorld2
+  Bypass-Worlds:
+  - skywarsLobby
+  Vanish-Commands:
+  - pv
+  - vanish
+  - premiumvanish
+Version: 16

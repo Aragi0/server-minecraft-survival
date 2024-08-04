@@ -1,0 +1,57 @@
+player_help: |
+  &a&nComandos para jugadores:
+  &e/dq me &a: Ver tus propias misiones.
+  &e/dq reroll <índice> &a: Volver a lanzar una misión &c(requiere rango).
+admin_help: |
+  &c&nComandos para administradores:
+  &e/dqa complete <jugador> <índice> &a: Completar una misión del jugador.
+  &e/dqa reset <misiones/total> <jugador> &a: Obtener nuevas misiones para un jugador o restablecer su número total de misiones logradas.
+  &e/dqa add total <jugador> <cantidad> &a: Agregar un número de misiones logradas a un jugador.
+  &e/dqa reroll <jugador> <índice> &a: Obtener una nueva misión para un jugador, en un índice específico.
+  &e/dqa show <jugador> &a: Ver las misiones de un jugador.
+no_permission: '&cNo tienes permiso.'
+no_permission_category: '&cNo tienes permiso para ver esta categoría.'
+player_only: '&cSolo los jugadores pueden ejecutar este comando.'
+invalid_category: '&cCategoría de misión inválida.'
+invalid_player: '&cEste jugador no existe o está desconectado.'
+invalid_quest_id: '&cDebes especificar un ID de misión válido.'
+invalid_quest_index: '&cEl índice especificado es inválido.'
+invalid_amount: '&cLa cantidad especificada es inválida.'
+categorized_enabled: '&cLas misiones categorizadas están habilitadas, el menú global no está disponible.'
+categorized_disabled: '&cLas misiones categorizadas están deshabilitadas, solo está disponible el menú global.'
+global_disabled: '&cLas misiones globales están deshabilitadas, solo están disponibles los menús categorizados.'
+already_achieved: '&cEsta misión ya ha sido lograda.'
+hologram_categorized_enabled: '&cLas misiones categorizadas están habilitadas, no se puede crear el holograma global.'
+hologram_categorized_disabled: '&cLas misiones categorizadas están deshabilitadas, no se puede crear los hologramas categorizados.'
+hologram_deleted: '&aHolograma eliminado correctamente.'
+hologram_invalid_index: '&cÍndice inválido para el holograma.'
+quests_in_progress: '&8[&c&lServer&8] &8¡Todavía tienes &2misiones &8diarias por &ccompletar!'
+all_quests_achieved_connect: '&a¡Has completado todas tus misiones diarias!'
+quests_renewed: '&a¡Tienes nuevas misiones diarias para completar!'
+quests_renewed_admin: '&eHas restablecido las misiones de %target%.'
+quest_rerolled: '&a¡Has vuelto a lanzar tu misión número %index%!'
+quest_rerolled_admin: '&eHas vuelto a lanzar la misión número %index% de %target%.'
+add_total_admin: '&eHas añadido %amount% al número total de misiones completadas de %target%.'
+add_total_target: '&eUn administrador ha añadido %amount% a tu número total de misiones completadas.'
+quest_achieved: '&a¡Has completado la misión &e%questName%&a, bien hecho!'
+all_quests_achieved: '&a¡Has completado todas tus misiones diarias, bien hecho!'
+easy_reward: '&a¡Has completado todas tus misiones fáciles!'
+medium_reward: '&a¡Has completado todas tus misiones intermedias!'
+hard_reward: '&a¡Has completado todas tus misiones difíciles!'
+not_enough_items: '&cNo tienes la cantidad requerida para completar esta misión.'
+total_amount_reset: '&eTu número total de misiones completadas ha sido restablecido por un administrador.'
+total_amount_reset_admin: '&eEl número total de misiones completadas de %target% ha sido restablecido por un administrador.'
+world_disabled: '&cNo puedes completar misiones en este mundo.'
+not_required_world: '&cNo puedes completar esta misión en este mundo.'
+reward_command: '&aRecibes algunos comandos de recompensa.'
+reward_exp_levels: '&aRecibes &e%rewardAmount% niveles de experiencia.'
+reward_exp_points: '&aRecibes &e%rewardAmount% puntos de experiencia.'
+reward_money: '&aRecibes &e%rewardAmount% &bdólares.'
+reward_points: '&aRecibes &e%rewardAmount% puntos.'
+reward_coins_engine: '&aRecibes &e%rewardAmount% &b%currencyName%.'
+new_day: '&6¡Es un nuevo día!'
+too_far: '&cEstás demasiado lejos de la ubicación requerida.'
+bad_world: '&cEstás en el mundo equivocado.'
+placeholder_api_not_enabled: '&cEl plugin PlaceholderAPI no está habilitado. Por favor, informa a un administrador.'
+placeholder_not_number: '&cEl marcador de posición %placeholder% no es un número. Por favor, informa a un administrador.'
+cannot_complete_quest_with_off_hand: '&cTodos los objetos requeridos deben estar en tu inventario, no en tu mano secundaria.'

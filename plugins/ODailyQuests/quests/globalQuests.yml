@@ -1,0 +1,329 @@
+quests:
+  1:
+    name: "&aPiedra"
+    menu_item: STONE
+    description:
+      - "&bMinar 32 piedras."
+      - "&bGanar &8$&650."
+    quest_type: BREAK
+    required_item: STONE
+    required_amount: 32
+    reward:
+      reward_type: MONEY
+      amount: 150
+  2:
+    name: "&6&lBloques de Oro"
+    menu_item: GOLD_BLOCK
+    description:
+      - "&eObtener 16 bloques de oro."
+      - "&eGanar &8$&6200"
+    quest_type: GET
+    required_item: GOLD_BLOCK
+    required_amount: 16
+    reward:
+      reward_type: MONEY
+      amount: 200
+  3:
+    name: "Demasiados Zombis"
+    menu_item: ZOMBIE_HEAD
+    description:
+      - "&cMatar &615 &czombis."
+      - "&aGanar &8$&670 ."
+    quest_type: KILL
+    required_entity: ZOMBIE
+    required_amount: 15
+    reward:
+      reward_type: MONEY
+      amount: 170
+  4:
+    name: "Mejor amigo"
+    menu_item: LEAD
+    description:
+      - "&aDomar un lobo."
+      - "&aGanar &8$&6100."
+    quest_type: TAME
+    required_entity: WOLF
+    required_amount: 1
+    reward:
+      reward_type: MONEY
+      amount: 100
+  5:
+    name: "¡Más ovejas!"
+    menu_item: WHITE_WOOL
+    description:
+      - "&eAparear dos ovejas."
+      - "&aGanar &8$&630."
+    quest_type: BREED
+    required_entity: SHEEP
+    required_amount: 2
+    reward:
+      reward_type: MONEY
+      amount: 130
+  6:
+    name: "Hongos..."
+    menu_item: RED_MUSHROOM
+    description:
+      - "&eEsquilar un mooshroom."
+      - "&aGanar &8$&61000"
+    quest_type: SHEAR
+    required_entity: MUSHROOM_COW
+    required_amount: 1
+    reward:
+      reward_type: MONEY
+      amount: 1000
+  7:
+    name: "Esmeraldas!"
+    menu_item: EMERALD
+    description:
+      - "&eObtener 2 esmeraldas de un aldeano."
+      - "&aGanar &8$&650"
+    quest_type: VILLAGER_TRADE
+    required_item: EMERALD
+    required_amount: 2
+    reward:
+      reward_type: MONEY
+      amount: 150
+  8:
+    name: "Galletas"
+    menu_item: COOKIE
+    description:
+      - "&eObtener 32 galletas de"
+      - "&eun aldeano granjero nivel &b3&e."
+      - "&aGanar &8$&6100."
+    quest_type: VILLAGER_TRADE
+    villager_profession: FARMER
+    villager_level: 3
+    required_item: COOKIE
+    required_amount: 32
+    reward:
+      reward_type: MONEY
+      amount: 100
+  9:
+    name: "&2Obtener 30 puntos de EXP."
+    menu_item: EXPERIENCE_BOTTLE
+    description:
+      - "&6Recompensa:"
+      - "&Gana &8$&6100."
+    quest_type: EXP_POINTS
+    required_amount: 30
+    reward:
+      reward_type: MONEY
+      amount: 100
+  10:
+    name: "&d&lFlor hermosa"
+    menu_item: ALLIUM
+    description:
+      - "&eObtener una &dflor hermosa&e."
+      - "&eGanar &8$&6100."
+    quest_type: GET
+    required_item: CUSTOM_ITEM
+    custom_item:
+      type: ALLIUM
+      name: "&dFlor Hermosa"
+      lore:
+        - "&dEsta flor es"
+        - "&dmuy útil..."
+    required_amount: 1
+    reward:
+      reward_type: MONEY
+      amount: 100
+  11:
+    name: "&aHacer la Piedra."
+    menu_item: STONE
+    description:
+      - "&bHacer una Piedra."
+      - "&bGanar &8$&6100."
+    quest_type: CRAFT
+    required_item: CUSTOM_ITEM
+    custom_item:
+      type: STONE
+      name: "&c&lLa Piedra Santa"
+      lore:
+        - "&cWoaaaaaaaw..."
+    required_amount: 1
+    reward:
+      reward_type: MONEY
+      amount: 100
+  12:
+    name: "&aLeche."
+    menu_item: MILK_BUCKET
+    description:
+      - "&bObtener 2 cubos de leche."
+      - "&bGanar &8$&6100."
+    quest_type: MILKING
+    required_amount: 2
+    reward:
+      reward_type: MONEY
+      amount: 100
+  13:
+    name: "&2Obtener 40 puntos de EXP."
+    menu_item: EXPERIENCE_BOTTLE
+    description:
+      - "&6Recompensa:"
+      - "&bGanar &8$&6500."
+    quest_type: EXP_POINTS
+    required_amount: 40
+    reward:
+      reward_type: MONEY
+      amount: 500
+  14:
+    name: "&2Obtener 10 niveles de EXP."
+    menu_item: EXPERIENCE_BOTTLE
+    description:
+      - "&6Recompensa:"
+      - "&6$&750"
+    quest_type: EXP_LEVELS
+    required_amount: 10
+    reward:
+      reward_type: MONEY
+      amount: 150
+  15:
+    name: "&2Carve 5 calabazas."
+    menu_item: PUMPKIN
+    description:
+      - "&6Recompensa:"
+      - "&6$&7100"
+    quest_type: CARVE
+    required_amount: 5
+    reward:
+      reward_type: MONEY
+      amount: 100
+  16:
+    name: "&2Esquilar 3 ovejas."
+    menu_item: WHITE_WOOL
+    description:
+      - "&6Recompensa:"
+      - "&6$&750"
+    quest_type: SHEAR
+    required_entity: SHEEP
+    required_amount: 3
+    reward:
+      reward_type: MONEY
+      amount: 150
+  17:
+    name: "&2Esquilar 3 ovejas moradas."
+    menu_item: PURPLE_WOOL
+    description:
+      - "&6Recompensa:"
+      - "&6$&7100"
+    quest_type: SHEAR
+    required_entity: SHEEP
+    sheep_color: PURPLE
+    required_amount: 3
+    reward:
+      reward_type: MONEY
+      amount: 100
+  18:
+    name: "&cElaborador Maestro"
+    menu_item: CRAFTING_TABLE
+    description:
+      - "&eCrea una mesa de trabajo."
+      - "&eGanar &8$&660."
+    quest_type: CRAFT
+    required_item: CRAFTING_TABLE
+    required_amount: 1
+    reward:
+      reward_type: MONEY
+      amount: 160
+  20:
+    name: "&aGranjero"
+    menu_item: CARROT
+    description:
+      - "&eCosechar 10 zanahorias maduras."
+      - "&eGanar &6$&7100"
+    quest_type: FARMING
+    required_item: CARROT
+    required_amount: 10
+    reward:
+      reward_type: MONEY
+      amount: 100
+  21:
+    name: "&a¡Velocidad...!"
+    menu_item: POTION
+    description:
+      - "&eObtener una poción de velocidad nivel 1."
+      - "&eGanar &6$&7200"
+    quest_type: GET
+    required_item: POTION
+    potion:
+      type: SPEED
+      upgraded: true
+      extended: false
+    required_amount: 1
+    reward:
+      reward_type: MONEY
+      amount: 200
+  22:
+    name: "&c¡Velocidad...!"
+    menu_item: POTION
+    description:
+      - "&eObtener una poción de velocidad nivel 2."
+      - "&eGanar &6$&7230"
+    quest_type: GET
+    required_item:
+      - POTION
+      - SPLASH_POTION
+      - LINGERING_POTION
+    potion:
+      type: SPEED
+      upgraded: false
+      extended: true
+    required_amount: 1
+    reward:
+      reward_type: MONEY
+      amount: 230
+  23:
+    name: "Hábitat original"
+    menu_item: WITHER_SKELETON_SKULL
+    description:
+      - "&cMatar a un Wither en el Nether."
+      - "&aGanar &6$&7150."
+    quest_type: KILL
+    required_entity: WITHER
+    required_amount: 1
+    required_worlds:
+      - world_nether
+    reward:
+      reward_type: MONEY
+      amount: 150
+  24:
+    name: "Ser rico"
+    menu_item: PAPER
+    description:
+      - "&cObtener más de 10,000$."
+      - "&aGanar &6$&71000."
+    quest_type: PLACEHOLDER
+    placeholder:
+      value: "%vault_eco_balance%"
+      operator: GREATER_THAN
+      expected: 1000
+      error_message: "&cNecesitas más de 1,000$ para completar esta misión."
+    reward:
+      reward_type: MONEY
+      amount: 1000
+    25:
+      name: "&aPiedra"
+      menu_item: STONE
+      achieved_menu_item: "customhead:b5a3b49beec3ab23ae0b60dab56e9cc8fa16769a25830b5d8d6c46378f54430" # checkmark head
+      description:
+        - "&bMinar 32 piedras."
+        - "&bGanar &c500$&b."
+      quest_type: BREAK
+      required_item: STONE
+      required_amount: 32
+      reward:
+        reward_type: MONEY
+        amount: 500
+    26:
+      name: "&aPiedra"
+      menu_item: STONE
+      achieved_menu_item: "customhead:b5a3b49beec3ab23ae0b60dab56e9cc8fa16769a25830b5d8d6c46378f54430" # checkmark head
+      description:
+        - "&bMinar 32 piedras."
+        - "&bGanar &c500$&b."
+      quest_type: BREAK
+      required_item: STONE
+      required_amount: 32
+      reward:
+        reward_type: MONEY
+        amount: 500

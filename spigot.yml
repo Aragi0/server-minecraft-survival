@@ -136,6 +136,8 @@ world-settings:
     simulation-distance: default
     thunder-chance: 100000
     verbose: false
+  worldeditregentempworld:
+    verbose: false
 settings:
   timeout-time: 60
   restart-on-crash: true
