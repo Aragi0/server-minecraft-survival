@@ -1,0 +1,523 @@
+606fc01e-4583-39ef-9685-e2c787258ab3:
+  '0':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3700
+    type: TURTLE_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: ARMOR
+      display-name: '{"text":"","extra":[{"text":"Head ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Triton
+        ","italic":false,"color":"aqua","bold":true},{"text":"[","italic":false,"color":"dark_gray","bold":false},{"text":"Legendario","italic":false,"color":"yellow","bold":true},{"text":"]","italic":false,"color":"dark_gray","bold":false}]}'
+      enchants:
+        PROTECTION_FIRE: 5
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 5
+        OXYGEN: 10
+        DURABILITY: 4
+      attribute-modifiers:
+        GENERIC_ARMOR_TOUGHNESS:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 3.0
+          name: GENERIC_ARMOR_TOUGHNESS
+          slot: HEAD
+          uuid: 9e760d93-3af0-48fb-88d0-3218d2ec5ee4
+          operation: 0
+        GENERIC_ARMOR:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 3.0
+          name: GENERIC_ARMOR
+          slot: HEAD
+          uuid: aa4f9f46-978a-4c0e-8928-2b941a4ac80e
+          operation: 0
+        GENERIC_KNOCKBACK_RESISTANCE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.1
+          name: GENERIC_KNOCKBACK_RESISTANCE
+          slot: HEAD
+          uuid: 310177f2-ee6e-448c-8402-978df91cff5c
+          operation: 0
+  '1':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3700
+    type: TURTLE_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: ARMOR
+      display-name: '{"text":"","extra":[{"text":"Head ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Triton
+        ","italic":false,"color":"aqua","bold":true},{"text":"[","italic":false,"color":"dark_gray","bold":false},{"text":"Legendario","italic":false,"color":"yellow","bold":true},{"text":"]","italic":false,"color":"dark_gray","bold":false}]}'
+      enchants:
+        PROTECTION_FIRE: 5
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 5
+        OXYGEN: 10
+        DURABILITY: 4
+      attribute-modifiers:
+        GENERIC_ARMOR_TOUGHNESS:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 3.0
+          name: GENERIC_ARMOR_TOUGHNESS
+          slot: HEAD
+          uuid: 9e760d93-3af0-48fb-88d0-3218d2ec5ee4
+          operation: 0
+        GENERIC_ARMOR:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 3.0
+          name: GENERIC_ARMOR
+          slot: HEAD
+          uuid: aa4f9f46-978a-4c0e-8928-2b941a4ac80e
+          operation: 0
+        GENERIC_KNOCKBACK_RESISTANCE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.1
+          name: GENERIC_KNOCKBACK_RESISTANCE
+          slot: HEAD
+          uuid: 310177f2-ee6e-448c-8402-978df91cff5c
+          operation: 0
+  '2':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3700
+    type: ENCHANTED_GOLDEN_APPLE
+    amount: 13
+  '3':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3700
+    type: DEEPSLATE_DIAMOND_ORE
+    amount: 4
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"","extra":[{"text":"Porteccion ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_purple","bold":false},{"text":"de
+        ","italic":false,"color":"dark_gray"},{"text":"Diamante","italic":false,"color":"aqua","bold":true}]}'
+      lore:
+      - '{"text":"","extra":[{"text":"Porteje una distancia de ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"124x124
+        ","italic":false,"color":"aqua","bold":true},{"text":"blokes","italic":false,"color":"dark_gray","bold":false}]}'
+      PublicBukkitValues: |-
+        {
+            "protectionstones:ispsblock": 1b
+        }
+  '4':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3700
+    type: DEEPSLATE_EMERALD_ORE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"","extra":[{"text":"Porteccion ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_purple","bold":false},{"text":"de
+        ","italic":false,"color":"dark_gray"},{"text":"Esmeralda","italic":false,"color":"dark_green","bold":true}]}'
+      lore:
+      - '{"text":"","extra":[{"text":"Porteje una distancia de ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"64x64
+        ","italic":false,"color":"dark_green","bold":true},{"text":"blokes","italic":false,"color":"dark_gray"}]}'
+      PublicBukkitValues: |-
+        {
+            "protectionstones:ispsblock": 1b
+        }
+  '5':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3700
+    type: TIPPED_ARROW
+    amount: 64
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"text":"","extra":[{"text":"Flechas ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Levitacion","italic":false,"color":"light_purple","bold":true}]}'
+      potion-type: minecraft:long_slow_falling
+      custom-effects:
+      - ==: PotionEffect
+        effect: minecraft:levitation
+        duration: 20
+        amplifier: 0
+        ambient: true
+        has-particles: true
+        has-icon: true
+  '6':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3700
+    type: TIPPED_ARROW
+    amount: 64
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"text":"","extra":[{"text":"Flechas ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Wither","italic":false,"color":"dark_gray","bold":true}]}'
+      potion-type: minecraft:long_weakness
+      custom-effects:
+      - ==: PotionEffect
+        effect: minecraft:wither
+        duration: 100
+        amplifier: 0
+        ambient: true
+        has-particles: true
+        has-icon: true
+  '7':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3700
+    type: SHIELD
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      enchants:
+        MENDING: 1
+        DURABILITY: 3
+      attribute-modifiers:
+        GENERIC_MAX_HEALTH:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 2.0
+          name: GENERIC_MAX_HEALTH
+          slot: OFF_HAND
+          uuid: 25494387-196e-4a8e-a006-d5d9f807d1e5
+          operation: 0
+      blockMaterial: SHIELD
+  '8':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3700
+    type: ELYTRA
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"","extra":[{"text":"Elitra (","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Legendaria","italic":false,"color":"yellow","bold":true},{"text":")","italic":false,"color":"dark_gray","bold":false}]}'
+      lore:
+      - '{"text":"","extra":[{"text":"Elitras ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Inrompibles","italic":false,"color":"dark_gray","bold":true}]}'
+      enchants:
+        MENDING: 1
+      attribute-modifiers:
+        GENERIC_ARMOR:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 8.0
+          name: GENERIC_ARMOR
+          slot: CHEST
+          uuid: 7dfdb999-ef04-4568-94dc-bfed36cc2dd6
+          operation: 0
+      ItemFlags:
+      - HIDE_ENCHANTS
+  '9':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3700
+    type: NETHERITE_SHOVEL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"","extra":[{"text":"Shovel ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Speed
+        ","italic":false,"color":"aqua","bold":true},{"text":"[","italic":false,"color":"dark_gray","bold":false},{"text":"Legendario","italic":false,"color":"yellow","bold":true},{"text":"]","italic":false,"color":"dark_gray","bold":false}]}'
+      enchants:
+        DIG_SPEED: 6
+        MENDING: 1
+        DURABILITY: 4
+  '10':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3700
+    type: NETHERITE_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"","extra":[{"text":"Axe ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Damage
+        ","italic":false,"color":"aqua","bold":true},{"text":"[","italic":false,"color":"dark_gray","bold":false},{"text":"Legendario","italic":false,"color":"yellow","bold":true},{"text":"]","italic":false,"color":"dark_gray","bold":false}]}'
+      enchants:
+        DIG_SPEED: 6
+        MENDING: 1
+        DAMAGE_ALL: 6
+        DURABILITY: 4
+  '11':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3700
+    type: NETHERITE_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"","extra":[{"text":"Axe ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Damage
+        ","italic":false,"color":"aqua","bold":true},{"text":"[","italic":false,"color":"dark_gray","bold":false},{"text":"Legendario","italic":false,"color":"yellow","bold":true},{"text":"]","italic":false,"color":"dark_gray","bold":false}]}'
+      enchants:
+        DIG_SPEED: 6
+        MENDING: 1
+        DAMAGE_ALL: 6
+        DURABILITY: 4
+  '12':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3700
+    type: ELYTRA
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"","extra":[{"text":"Elitra (","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Legendaria","italic":false,"color":"yellow","bold":true},{"text":")","italic":false,"color":"dark_gray","bold":false}]}'
+      lore:
+      - '{"text":"","extra":[{"text":"Elitras ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Inrompibles","italic":false,"color":"dark_gray","bold":true}]}'
+      enchants:
+        MENDING: 1
+      attribute-modifiers:
+        GENERIC_ARMOR:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 8.0
+          name: GENERIC_ARMOR
+          slot: CHEST
+          uuid: 7dfdb999-ef04-4568-94dc-bfed36cc2dd6
+          operation: 0
+      ItemFlags:
+      - HIDE_ENCHANTS
+  '13':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3700
+    type: STICK
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"","extra":[{"text":"0","obfuscated":true,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Empujador","obfuscated":false,"italic":false,"color":"yellow","bold":true},{"text":"0","obfuscated":true,"italic":false,"color":"dark_gray","bold":false}]}'
+      enchants:
+        KNOCKBACK: 4
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_UNBREAKABLE
+      Unbreakable: true
+  '14':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3700
+    type: TIPPED_ARROW
+    amount: 28
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"text":"","extra":[{"text":"Flechas ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Wither","italic":false,"color":"dark_gray","bold":true}]}'
+      potion-type: minecraft:long_weakness
+      custom-effects:
+      - ==: PotionEffect
+        effect: minecraft:wither
+        duration: 100
+        amplifier: 0
+        ambient: true
+        has-particles: true
+        has-icon: true
+  '15':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3700
+    type: TIPPED_ARROW
+    amount: 64
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"text":"","extra":[{"text":"Flechas ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Levitacion","italic":false,"color":"light_purple","bold":true}]}'
+      potion-type: minecraft:long_slow_falling
+      custom-effects:
+      - ==: PotionEffect
+        effect: minecraft:levitation
+        duration: 20
+        amplifier: 0
+        ambient: true
+        has-particles: true
+        has-icon: true
+  '16':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3700
+    type: ENDER_CHEST
+  '17':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3700
+    type: GOLDEN_APPLE
+    amount: 64
+  '18':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3700
+    type: GOLDEN_APPLE
+    amount: 64
+  '19':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3700
+    type: BOW
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 332
+  '20':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3700
+    type: BONE
+    amount: 7
+  '21':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3700
+    type: GOLDEN_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: ARMOR
+      display-name: '{"text":"","extra":[{"text":"Encanto del Guepardo","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"aqua","bold":false}]}'
+      lore:
+      - '{"text":"","extra":[{"text":"-------","obfuscated":false,"italic":false,"underlined":false,"strikethrough":true,"color":"gray","bold":true},{"text":"<","italic":false,"strikethrough":false,"color":"gray","bold":false},{"text":"Info
+        del Equipo","italic":false,"strikethrough":false,"color":"gray","bold":true},{"text":">","italic":false,"color":"gray","bold":false},{"text":"-------","italic":false,"strikethrough":true,"color":"gray","bold":true}]}'
+      - '{"text":"","extra":[{"text":"Nivel de Objeto: ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"3
+        ","italic":false,"color":"white"},{"text":"Prestigio ","italic":false,"color":"gray"},{"text":"0","italic":false,"color":"gold"}]}'
+      - '{"text":"","extra":[{"text":"Armadura del Elite: ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"0.75","italic":false,"color":"dark_green"}]}'
+      - '{"text":"","extra":[{"text":"Soulbound to ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"earlierxd","italic":false,"color":"white"},{"text":"","italic":false}]}'
+      - '{"text":"","extra":[{"text":"Saqueado de ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"「","italic":false,"color":"dark_red"},{"text":"7","italic":false,"color":"red"},{"text":"」","italic":false,"color":"dark_red"},{"text":"
+        ","italic":false,"color":"white"},{"text":"Duende de Encantamientos","italic":false,"color":"dark_green"}]}'
+      - '{"text":"","extra":[{"text":"-----------","obfuscated":false,"italic":false,"underlined":false,"strikethrough":true,"color":"gray","bold":true},{"text":"<
+        ","italic":false,"strikethrough":false,"color":"gray","bold":false},{"text":"Lore","italic":false,"color":"white","bold":true},{"text":"
+        >","italic":false,"color":"gray","bold":false},{"text":"-----------","italic":false,"strikethrough":true,"color":"gray","bold":true}]}'
+      - '{"text":"","extra":[{"text":"Los Guepardos pueden alcanzar velocidades de","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"green","bold":false}]}'
+      - '{"text":"","extra":[{"text":"120 km/h... por unos 60","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"green","bold":false}]}'
+      - '{"text":"","extra":[{"text":"segundos. ¡Hazlos contar!","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"green","bold":false}]}'
+      - '{"text":"","extra":[{"text":"--------","obfuscated":false,"italic":false,"underlined":false,"strikethrough":true,"color":"gray","bold":true},{"text":"<","italic":false,"strikethrough":false,"color":"gray","bold":false},{"text":"Encantamientos","italic":false,"color":"blue","bold":true},{"text":">","italic":false,"color":"gray","bold":false},{"text":"","italic":false,"strikethrough":true,"color":"gray","bold":true}]}'
+      - '{"text":"","extra":[{"text":"◇","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"Maldición
+        de desaparición 1","italic":false,"color":"red"}]}'
+      - '{"text":"","extra":[{"text":"----------","obfuscated":false,"italic":false,"underlined":false,"strikethrough":true,"color":"gray","bold":true},{"text":"<
+        ","italic":false,"strikethrough":false,"color":"gray","bold":false},{"text":"Efectos","italic":false,"color":"dark_purple","bold":true},{"text":"
+        >","italic":false,"color":"gray","bold":false},{"text":"----------","italic":false,"strikethrough":true,"color":"gray","bold":true}]}'
+      - '{"text":"","extra":[{"text":"◇Velocidad","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_purple","bold":false},{"text":"⟲
+        3","italic":false,"color":"gold"}]}'
+      - '{"text":"","extra":[{"text":"◇Hambre","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_purple","bold":false},{"text":"⟲
+        1","italic":false,"color":"gold"}]}'
+      - '{"text":"","extra":[{"text":"-----------------------------","obfuscated":false,"italic":false,"underlined":false,"strikethrough":true,"color":"gray","bold":true}]}'
+      - '{"text":"","extra":[{"text":"Se vende por 8.65 Monedas Elite","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+      enchants:
+        VANISHING_CURSE: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      PublicBukkitValues: |-
+        {
+            "elitemobs:cheetah_charm.yml": "cheetah_charm.yml",
+            "elitemobs:continuouspotioneffect": "SPEED,2,self,continuous:HUNGER,0,self,continuous:",
+            "elitemobs:customlore": "§aLos Guepardos pueden alcanzar velocidades de
+        §a120 km/h... por unos 60
+        §asegundos. ¡Hazlos contar!",
+            "elitemobs:elitemobsitem": 1b,
+            "elitemobs:enchantmentcount": 1,
+            "elitemobs:itemsource": "§7Saqueado de §4「§c7§4」§f §2Duende de Encantamientos",
+            "elitemobs:itemvalue": 173.0d,
+            "elitemobs:prestige": 0,
+            "elitemobs:soulbind": "606fc01e-4583-39ef-9685-e2c787258ab3"
+        }
+  '22':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3700
+    type: NETHERITE_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        FIRE_ASPECT: 2
+        MENDING: 1
+        DURABILITY: 3
+      attribute-modifiers:
+        GENERIC_ATTACK_DAMAGE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 9.0
+          name: GENERIC_ATTACK_DAMAGE
+          slot: HAND
+          uuid: 00dade71-9523-45d1-a78f-e2ee0aa18238
+          operation: 0
+      Damage: 3
+  '23':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3700
+    type: WOODEN_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"","extra":[{"text":"Wolf Toy","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_green","bold":false}]}'
+      lore:
+      - '{"text":"","extra":[{"text":"-------","obfuscated":false,"italic":false,"underlined":false,"strikethrough":true,"color":"gray","bold":true},{"text":"<","italic":false,"strikethrough":false,"color":"gray","bold":false},{"text":"Info
+        del Equipo","italic":false,"strikethrough":false,"color":"gray","bold":true},{"text":">","italic":false,"color":"gray","bold":false},{"text":"-------","italic":false,"strikethrough":true,"color":"gray","bold":true}]}'
+      - '{"text":"","extra":[{"text":"Nivel de Objeto: ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"8
+        ","italic":false,"color":"white"},{"text":"Prestigio ","italic":false,"color":"gray"},{"text":"0","italic":false,"color":"gold"}]}'
+      - '{"text":"","extra":[{"text":"Daño del Elite: ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"12.8","italic":false,"color":"dark_green"}]}'
+      - '{"text":"","extra":[{"text":"Soulbound to ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"earlierxd","italic":false,"color":"white"},{"text":"","italic":false}]}'
+      - '{"text":"","extra":[{"text":"Saqueado de ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"〖","italic":false,"color":"gold"},{"text":"6","italic":false,"color":"yellow"},{"text":"〗","italic":false,"color":"gold"},{"text":"
+        ","italic":false,"color":"white"},{"text":"Puppy","italic":false,"color":"dark_green"}]}'
+      - '{"text":"","extra":[{"text":"-----------","obfuscated":false,"italic":false,"underlined":false,"strikethrough":true,"color":"gray","bold":true},{"text":"<
+        ","italic":false,"strikethrough":false,"color":"gray","bold":false},{"text":"Lore","italic":false,"color":"white","bold":true},{"text":"
+        >","italic":false,"color":"gray","bold":false},{"text":"-----------","italic":false,"strikethrough":true,"color":"gray","bold":true}]}'
+      - '{"text":"","extra":["Acquired by defeating the wolf"]}'
+      - '{"text":"","extra":[{"text":"--------","obfuscated":false,"italic":false,"underlined":false,"strikethrough":true,"color":"gray","bold":true},{"text":"<","italic":false,"strikethrough":false,"color":"gray","bold":false},{"text":"Encantamientos","italic":false,"color":"blue","bold":true},{"text":">","italic":false,"color":"gray","bold":false},{"text":"","italic":false,"strikethrough":true,"color":"gray","bold":true}]}'
+      - '{"text":"","extra":[{"text":"◇","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"Castigo
+        2","italic":false,"color":"gray"}]}'
+      - '{"text":"","extra":[{"text":"◇","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"Irrompibilidad
+        3","italic":false,"color":"gray"}]}'
+      - '{"text":"","extra":[{"text":"-----------------------------","obfuscated":false,"italic":false,"underlined":false,"strikethrough":true,"color":"gray","bold":true}]}'
+      - '{"text":"","extra":[{"text":"Se vende por 3.25 Monedas Elite","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+      enchants:
+        DAMAGE_UNDEAD: 2
+        DURABILITY: 3
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      PublicBukkitValues: |-
+        {
+            "elitemobs:circletemple_barren_wolf_bone.yml": "circletemple_barren_wolf_bone.yml",
+            "elitemobs:customlore": "Acquired by defeating the wolf",
+            "elitemobs:elitedamage": 4.000000476837187d,
+            "elitemobs:elitemobsitem": 1b,
+            "elitemobs:enchantmentcount": 5,
+            "elitemobs:itemsource": "§7Saqueado de §6〖§e6§6〗§f §2Puppy",
+            "elitemobs:itemvalue": 65.0d,
+            "elitemobs:prestige": 0,
+            "elitemobs:soulbind": "606fc01e-4583-39ef-9685-e2c787258ab3",
+            "minecraft:smite": 2
+        }
+  '24':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3700
+    type: COOKED_PORKCHOP
+    amount: 2
+  '25':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3700
+    type: ELYTRA
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"","extra":[{"text":"Talismán de Búho","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"aqua","bold":false}]}'
+      lore:
+      - '{"text":"","extra":[{"text":"-------","obfuscated":false,"italic":false,"underlined":false,"strikethrough":true,"color":"gray","bold":true},{"text":"<","italic":false,"strikethrough":false,"color":"gray","bold":false},{"text":"Info
+        del Equipo","italic":false,"strikethrough":false,"color":"gray","bold":true},{"text":">","italic":false,"color":"gray","bold":false},{"text":"-------","italic":false,"strikethrough":true,"color":"gray","bold":true}]}'
+      - '{"text":"","extra":[{"text":"Nivel de Objeto: ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"0
+        ","italic":false,"color":"white"},{"text":"Prestigio ","italic":false,"color":"gray"},{"text":"0","italic":false,"color":"gold"}]}'
+      - '{"text":"","extra":[{"text":"Soulbound to ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"earlierxd","italic":false,"color":"white"},{"text":"","italic":false}]}'
+      - '{"text":"","extra":[{"text":"Saqueado de ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"「","italic":false,"color":"dark_red"},{"text":"7","italic":false,"color":"red"},{"text":"」","italic":false,"color":"dark_red"},{"text":"
+        ","italic":false,"color":"white"},{"text":"Duende de Encantamientos","italic":false,"color":"dark_green"}]}'
+      - '{"text":"","extra":[{"text":"-----------","obfuscated":false,"italic":false,"underlined":false,"strikethrough":true,"color":"gray","bold":true},{"text":"<
+        ","italic":false,"strikethrough":false,"color":"gray","bold":false},{"text":"Lore","italic":false,"color":"white","bold":true},{"text":"
+        >","italic":false,"color":"gray","bold":false},{"text":"-----------","italic":false,"strikethrough":true,"color":"gray","bold":true}]}'
+      - '{"text":"","extra":[{"text":"Conviértete en el mejor predador","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"green","bold":false}]}'
+      - '{"text":"","extra":[{"text":"nocturno!","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"green","bold":false}]}'
+      - '{"text":"","extra":[{"text":"--------","obfuscated":false,"italic":false,"underlined":false,"strikethrough":true,"color":"gray","bold":true},{"text":"<","italic":false,"strikethrough":false,"color":"gray","bold":false},{"text":"Encantamientos","italic":false,"color":"blue","bold":true},{"text":">","italic":false,"color":"gray","bold":false},{"text":"","italic":false,"strikethrough":true,"color":"gray","bold":true}]}'
+      - '{"text":"","extra":[{"text":"◇","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"Maldición
+        de desaparición 1","italic":false,"color":"red"}]}'
+      - '{"text":"","extra":[{"text":"----------","obfuscated":false,"italic":false,"underlined":false,"strikethrough":true,"color":"gray","bold":true},{"text":"<
+        ","italic":false,"strikethrough":false,"color":"gray","bold":false},{"text":"Efectos","italic":false,"color":"dark_purple","bold":true},{"text":"
+        >","italic":false,"color":"gray","bold":false},{"text":"----------","italic":false,"strikethrough":true,"color":"gray","bold":true}]}'
+      - '{"text":"","extra":[{"text":"◇Supersalto","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_purple","bold":false},{"text":"⟲
+        3","italic":false,"color":"gold"}]}'
+      - '{"text":"","extra":[{"text":"◇Visión nocturna","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_purple","bold":false},{"text":"⟲
+        1","italic":false,"color":"gold"}]}'
+      - '{"text":"","extra":[{"text":"◇Debilidad","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_purple","bold":false},{"text":"⟲
+        1","italic":false,"color":"gold"}]}'
+      - '{"text":"","extra":[{"text":"◇Luminiscencia","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_purple","bold":false},{"text":"⚔☠
+        1","italic":false,"color":"dark_red"}]}'
+      - '{"text":"","extra":[{"text":"-----------------------------","obfuscated":false,"italic":false,"underlined":false,"strikethrough":true,"color":"gray","bold":true}]}'
+      - '{"text":"","extra":[{"text":"Se vende por 13.85 Monedas Elite","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+      enchants:
+        VANISHING_CURSE: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      Damage: 138
+      PublicBukkitValues: |-
+        {
+            "elitemobs:continuouspotioneffect": "JUMP,2,self,continuous:NIGHT_VISION,0,self,continuous:WEAKNESS,0,self,continuous:",
+            "elitemobs:customlore": "§aConviértete en el mejor predador
+        §anocturno!",
+            "elitemobs:elitemobsitem": 1b,
+            "elitemobs:enchantmentcount": 1,
+            "elitemobs:itemsource": "§7Saqueado de §4「§c7§4」§f §2Duende de Encantamientos",
+            "elitemobs:itemvalue": 277.0d,
+            "elitemobs:onhitpotioneffect": "GLOWING,0,target,onHit:",
+            "elitemobs:owl_charm.yml": "owl_charm.yml",
+            "elitemobs:prestige": 0,
+            "elitemobs:soulbind": "606fc01e-4583-39ef-9685-e2c787258ab3"
+        }
+76e8e215-45f8-3bab-88b7-f1c06238849b:
+  '0':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3700
+    type: DIAMOND
+    amount: 37
+  '1':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3700
+    type: NETHERITE_BLOCK

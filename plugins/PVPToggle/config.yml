@@ -1,0 +1,49 @@
+# Do you want the plugin to remember a player's last PVP state when the login
+remember-pvp-state: true
+# (Opped users will bypass cooldowns, set the player's "pvptoggle.bypasscooldown" permission to 'false'  to remove bypass)
+# The amount of seconds between toggling pvp
+command-cooldown: 0
+# The amount of seconds between pvp and being able to toggle pvp
+pvp-cooldown: 0
+# The amount of seconds after running the command it takes for pvp to be toggled (if you are hit within this time and pvp is enabled the command will be cancelled)
+command-wait: 0
+# Whether or not pvp is enabled for players by default; true - enabled, false - disabled
+default-pvp: true
+# The way in which to display particles; Disabled: -1, Display to all: 0, display to only pvp enabled players: 1
+particles: -1
+# Worlds which will be unaffected by PVP Toggle
+worlds:
+  - world_1
+  - world_2
+
+# PlaceholderAPI placeholders
+placeholder-api:
+  pvp-enabled: "&a&lOn"
+  pvp-disabled: "&c&lOff"
+
+# <pvpstate> goes in place of a player's current pvp state
+# <parameter> goes in place of a player's name or other parameter
+messages:
+  PREFIX: '&8[&c&lServer&8] '
+  HELP_HEADER: '&8[&c&lServer&8] '
+  HELP_GENERAL_USEAGE: '&aUsa /pvp {toggle|on|off|status} para cambiar/ver el estado de PVP.'
+  HELP_VIEW_OTHERS: '&aUsa /pvp status <jugador> para ver el estado de PVP de otro jugador.'
+  HELP_SET_OTHERS: '&aUsa /pvp {toggle|on|off} <jugador> para establecer el estado de PVP de otro jugador.'
+  RELOAD_SUCCESS: '&aRecarga completada.'
+  UNKNOWN_PLAYER: '&cNo se pudo encontrar un jugador con el nombre <parámetro>'
+  COMMAND_INVALID: '&cComando inválido. Escribe /pvp ayuda para ver una lista de comandos.'
+  COMMAND_TIMER: '&cCambiando estado de PVP en <parámetro> segundos.'
+  COMMAND_RUNNING: '&cEste comando ya se está ejecutando.'
+  NO_PERMISSION: '&cNo tienes permisos suficientes para hacer esto.'
+  PVP_STATE_ENABLED: '&a¡Tu PVP ha sido habilitado!'
+  PVP_STATE_DISABLED: '&c¡Tu PVP ha sido deshabilitado!'
+  PVP_STATE_CHANGED_OTHERS: '&a<parámetro> ha tenido su estado de PVP cambiado a <estado_pvp>'
+  PVP_STATUS: '&aTu PVP está <estado_pvp>'
+  PVP_STATUS_OTHERS: '&a<parámetro> tiene su PVP <estado_pvp>'
+  PVP_DISABLED: '&c¡Tienes el PVP desactivado!'
+  PVP_DISABLED_OTHERS: '&c<parámetro> tiene el PVP desactivado!'
+  PVP_COOLDOWN: '&c¡Demasiado rápido! Puedes cambiar el PVP en <parámetro> segundos.'
+  PVP_WORLD_CHANGE_DISABLED: '&aTu PVP ha sido desactivado porque el mundo al que ingresaste no permite el PVP.'
+  PVP_WORLD_CHANGE_REQUIRED: '&aTu PVP ha sido habilitado porque el mundo al que ingresaste requiere PVP.'
+  PVP_WORLD_CANNOT_CHANGE_SELF: '&cNo puedes cambiar el estado de PVP en este mundo.'
+  PVP_WORLD_CANNOT_CHANGE_OTHERS: '&cNo puedes cambiar el estado de PVP en ese mundo.'

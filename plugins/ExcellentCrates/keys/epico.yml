@@ -1,0 +1,12 @@
+Name: Epico Key
+Virtual: false
+Item:
+  Material: SPIRE_ARMOR_TRIM_SMITHING_TEMPLATE
+  Name: '&d&lEpica &7Key'
+  Lore:
+  - '&8key para abrir caja &d&lEpica'
+  Enchants:
+    mending: 1
+  Item_Flags:
+  - HIDE_ENCHANTS
+  - HIDE_POTION_EFFECTS

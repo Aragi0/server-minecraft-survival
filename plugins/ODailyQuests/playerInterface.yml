@@ -1,0 +1,161 @@
+# ======================================================
+# Here you can create your own player quests interface.
+#
+# Never delete a %variable% unless you know what you're doing.
+# %achieved% is replaced by the number of completed quests.
+# %drawIn% is replaced by the time remaining before the next quests draw.
+# ======================================================
+player_interface:
+  size: 27
+  inventory_name: "&bMis misiones"
+  disable_status: false
+  status: "&eEstado :"
+  progress: "&eEN PROGRESO (&a%progress%&e/&c%required%&e)"
+  achieved: "&aLOGRADO"
+
+  glowing_if_achieved: true
+  complete_get_type: "&e¡Haz clic para completar esta misión!"
+  player_head:
+    enabled: true
+    slot: 5
+    item_name: "&bTus misiones"
+    item_description:
+      - "&eMisiones completadas: &b%achieved%&e/63"
+      - "&ePróximo sorteo en: &c%drawIn%"
+
+  quests: 
+    1: 12
+    2: 14
+    3: 16
+  items:
+    0:
+      type: CLOSE
+      item:
+        material: REDSTONE_BLOCK
+        name: "&cCerrar"
+        lore: []
+        slot: 27
+    1:
+      type: PLAYER_COMMAND
+      item:
+        material: ENDER_EYE
+        name: "&cInfo"
+        lore:
+          - "&eVer Informacion"
+        slot: 19
+      commands:
+          - "quests help"
+    2:
+      type: FILL
+      item:
+        material: GRAY_STAINED_GLASS_PANE
+        slot: 1
+    3:
+      type: FILL
+      item:
+        material: GRAY_STAINED_GLASS_PANE
+        slot: 2
+    4:
+      type: FILL
+      item:
+        material: GRAY_STAINED_GLASS_PANE
+        slot: 3
+    5:
+      type: FILL
+      item:
+        material: GRAY_STAINED_GLASS_PANE
+        slot: 4
+    6:
+      type: FILL
+      item:
+        material: GRAY_STAINED_GLASS_PANE
+        slot: 6
+    7:
+      type: FILL
+      item:
+        material: GRAY_STAINED_GLASS_PANE
+        slot: 7
+    8:
+      type: FILL
+      item:
+        material: GRAY_STAINED_GLASS_PANE
+        slot: 8
+    9:
+      type: FILL
+      item:
+        material: GRAY_STAINED_GLASS_PANE
+        slot: 9
+    10:
+      type: FILL
+      item:
+        material: GRAY_STAINED_GLASS_PANE
+        slot: 10
+    11:
+      type: FILL
+      item:
+        material: GRAY_STAINED_GLASS_PANE
+        slot: 11
+    12:
+      type: FILL
+      item:
+        material: GRAY_STAINED_GLASS_PANE
+        slot: 13
+    13:
+      type: FILL
+      item:
+        material: GRAY_STAINED_GLASS_PANE
+        slot: 15
+    14:
+      type: FILL
+      item:
+        material: GRAY_STAINED_GLASS_PANE
+        slot: 17
+    15:
+      type: FILL
+      item:
+        material: GRAY_STAINED_GLASS_PANE
+        slot: 18
+    16:
+      type: FILL
+      item:
+        material: GRAY_STAINED_GLASS_PANE
+        slot: 20
+    17:
+      type: FILL
+      item:
+        material: GRAY_STAINED_GLASS_PANE
+        slot: 21
+    18:
+      type: FILL
+      item:
+        material: GRAY_STAINED_GLASS_PANE
+        slot: 22
+    19:
+      type: PLAYER_COMMAND
+      item:
+        material: RECOVERY_COMPASS
+        name: "&cReroll"
+        lore:
+          - "&8Cambiar todas las"
+          - "&8miciones diarias"
+          - "&c(cierra y abre para cambios)"
+        slot: 23
+      commands:
+          - "dq reroll 1"
+          - "dq reroll 2"
+          - "dq reroll 3"
+    20:
+      type: FILL
+      item:
+        material: GRAY_STAINED_GLASS_PANE
+        slot: 24
+    21:
+      type: FILL
+      item:
+        material: GRAY_STAINED_GLASS_PANE
+        slot: 25
+    22:
+      type: FILL
+      item:
+        material: GRAY_STAINED_GLASS_PANE
+        slot: 26
