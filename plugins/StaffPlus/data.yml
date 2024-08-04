@@ -1,0 +1,50 @@
+76e8e215-45f8-3bab-88b7-f1c06238849b:
+  name: Aragi_
+  glass-color: 0
+  reports: []
+  warnings: []
+  notes: []
+  alert-options:
+  - XRAY;true
+  - MENTION;true
+  - NAME_CHANGE;true
+12b1c55e-207d-3556-9edf-d7760162d888:
+  name: AstroMCO
+  glass-color: 0
+  reports: []
+  warnings: []
+  notes: []
+  alert-options:
+  - XRAY;true
+  - MENTION;true
+  - NAME_CHANGE;true
+00000000-0000-0000-0009-01fcf383069d:
+  name: .Aragi_kuu
+  glass-color: 0
+  reports: []
+  warnings: []
+  notes: []
+  alert-options:
+  - XRAY;true
+  - MENTION;true
+  - NAME_CHANGE;true
+00000000-0000-0000-0009-01f75a5956aa:
+  name: .XComadrejaX2073
+  glass-color: 0
+  reports: []
+  warnings: []
+  notes: []
+  alert-options:
+  - XRAY;true
+  - MENTION;true
+  - NAME_CHANGE;true
+606fc01e-4583-39ef-9685-e2c787258ab3:
+  name: earlierxd
+  glass-color: 0
+  reports: []
+  warnings: []
+  notes: []
+  alert-options:
+  - XRAY;true
+  - MENTION;true
+  - NAME_CHANGE;true

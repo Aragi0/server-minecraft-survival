@@ -1,0 +1,609 @@
+# This file is not intended to be manually modified! If you want to manually edit this file anyways, ensure that the server is not running currently and that you have prepared a backup of this file.
+
+data-version: 3|2|3700
+'1':
+  uniqueId: bc91b2fd-f659-4adc-b46e-ec3d1bac1cb8
+  world: world
+  x: 238
+  y: 70
+  z: -45
+  yaw: 153.50058
+  type: admin
+  name: '&8Tienda &b&lKeys'
+  object:
+    type: villager
+    baby: false
+    profession: NONE
+    villagerType: JUNGLE
+    villagerLevel: 5
+  recipes:
+    '1':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3700
+        type: COAST_ARMOR_TRIM_SMITHING_TEMPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"Comun ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"aqua","bold":true},{"text":"Key","italic":false,"color":"gray","bold":false}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"key para abrir caja ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Comun","italic":false,"color":"aqua","bold":true}]}'
+          enchants:
+            MENDING: 1
+          repair-cost: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_POTION_EFFECTS
+          PublicBukkitValues: |-
+            {
+                "excellentcrates:crate_key.id": "comun"
+            }
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3700
+        type: BLADE_POTTERY_SHERD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"Billete","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gold","bold":true}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"Se usa para comprar y","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false}]}'
+          - '{"text":"","extra":[{"text":"vender cosa","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false}]}'
+          - '{"text":"","extra":[{"text":"( ","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"se
+            compra en Tienda ","italic":false,"color":"dark_gray"},{"text":"Especial
+            ","italic":false,"color":"light_purple"},{"text":")","italic":false,"color":"gray"}]}'
+          enchants:
+            ARROW_INFINITE: 1
+          repair-cost: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3700
+        type: DIAMOND
+    '2':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3700
+        type: TIDE_ARMOR_TRIM_SMITHING_TEMPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"Poco Comun ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_aqua","bold":true},{"text":"Key","italic":false,"color":"gray","bold":false}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"key para abrir caja ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Poco
+            Comun","italic":false,"color":"dark_aqua","bold":true}]}'
+          enchants:
+            MENDING: 1
+          repair-cost: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_POTION_EFFECTS
+          PublicBukkitValues: |-
+            {
+                "excellentcrates:crate_key.id": "poco_comun"
+            }
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3700
+        type: BLADE_POTTERY_SHERD
+        amount: 2
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"Billete","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gold","bold":true}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"Se usa para comprar y","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false}]}'
+          - '{"text":"","extra":[{"text":"vender cosa","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false}]}'
+          - '{"text":"","extra":[{"text":"( ","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"se
+            compra en Tienda ","italic":false,"color":"dark_gray"},{"text":"Especial
+            ","italic":false,"color":"light_purple"},{"text":")","italic":false,"color":"gray"}]}'
+          enchants:
+            ARROW_INFINITE: 1
+          repair-cost: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3700
+        type: DIAMOND
+        amount: 2
+    '3':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3700
+        type: WILD_ARMOR_TRIM_SMITHING_TEMPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"Especial ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_green","bold":true},{"text":"Key","italic":false,"color":"gray","bold":false}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"key para abrir caja ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Especial","italic":false,"color":"dark_green","bold":true}]}'
+          enchants:
+            MENDING: 1
+          repair-cost: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_POTION_EFFECTS
+          PublicBukkitValues: |-
+            {
+                "excellentcrates:crate_key.id": "especial"
+            }
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3700
+        type: BLADE_POTTERY_SHERD
+        amount: 4
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"Billete","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gold","bold":true}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"Se usa para comprar y","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false}]}'
+          - '{"text":"","extra":[{"text":"vender cosa","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false}]}'
+          - '{"text":"","extra":[{"text":"( ","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"se
+            compra en Tienda ","italic":false,"color":"dark_gray"},{"text":"Especial
+            ","italic":false,"color":"light_purple"},{"text":")","italic":false,"color":"gray"}]}'
+          enchants:
+            ARROW_INFINITE: 1
+          repair-cost: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3700
+        type: DIAMOND
+        amount: 4
+    '4':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3700
+        type: SPIRE_ARMOR_TRIM_SMITHING_TEMPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"Epica ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"light_purple","bold":true},{"text":"Key","italic":false,"color":"gray","bold":false}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"key para abrir caja ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Epica","italic":false,"color":"light_purple","bold":true}]}'
+          enchants:
+            MENDING: 1
+          repair-cost: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_POTION_EFFECTS
+          PublicBukkitValues: |-
+            {
+                "excellentcrates:crate_key.id": "epico"
+            }
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3700
+        type: BLADE_POTTERY_SHERD
+        amount: 6
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"Billete","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gold","bold":true}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"Se usa para comprar y","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false}]}'
+          - '{"text":"","extra":[{"text":"vender cosa","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false}]}'
+          - '{"text":"","extra":[{"text":"( ","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"se
+            compra en Tienda ","italic":false,"color":"dark_gray"},{"text":"Especial
+            ","italic":false,"color":"light_purple"},{"text":")","italic":false,"color":"gray"}]}'
+          enchants:
+            ARROW_INFINITE: 1
+          repair-cost: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3700
+        type: DIAMOND
+        amount: 6
+    '5':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3700
+        type: EYE_ARMOR_TRIM_SMITHING_TEMPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"Legendaria ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"yellow","bold":false},{"text":"Key","italic":false,"color":"gray"}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"key para abrir caja ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Legendaria","italic":false,"color":"yellow","bold":true}]}'
+          enchants:
+            MENDING: 1
+          repair-cost: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_POTION_EFFECTS
+          PublicBukkitValues: |-
+            {
+                "excellentcrates:crate_key.id": "legendario"
+            }
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3700
+        type: BLADE_POTTERY_SHERD
+        amount: 8
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"Billete","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gold","bold":true}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"Se usa para comprar y","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false}]}'
+          - '{"text":"","extra":[{"text":"vender cosa","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false}]}'
+          - '{"text":"","extra":[{"text":"( ","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"se
+            compra en Tienda ","italic":false,"color":"dark_gray"},{"text":"Especial
+            ","italic":false,"color":"light_purple"},{"text":")","italic":false,"color":"gray"}]}'
+          enchants:
+            ARROW_INFINITE: 1
+          repair-cost: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3700
+        type: DIAMOND
+        amount: 8
+    '6':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3700
+        type: BLADE_POTTERY_SHERD
+        amount: 4
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"Billete","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gold","bold":true}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"Se usa para comprar y","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false}]}'
+          - '{"text":"","extra":[{"text":"vender cosa","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false}]}'
+          - '{"text":"","extra":[{"text":"( ","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"se
+            compra en Tienda ","italic":false,"color":"dark_gray"},{"text":"Especial
+            ","italic":false,"color":"light_purple"},{"text":")","italic":false,"color":"gray"}]}'
+          enchants:
+            ARROW_INFINITE: 1
+          repair-cost: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3700
+        type: PRISMARINE_CRYSTALS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"Diamante","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"aqua","bold":true}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"Item Mas valioso que el ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Billete
+            ","italic":false,"color":"gold"},{"text":"con","italic":false,"color":"dark_gray"}]}'
+          - '{"text":"","extra":[{"text":"suficientes puedes comprar ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Protecciones","italic":false,"color":"light_purple"}]}'
+          - '{"text":"","extra":[{"text":"( ","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"se
+            compra en Tienda ","italic":false,"color":"dark_gray"},{"text":"Especial
+            ","italic":false,"color":"light_purple"},{"text":")","italic":false,"color":"gray"}]}'
+          enchants:
+            ARROW_INFINITE: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+    '7':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3700
+        type: PRISMARINE_CRYSTALS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"Diamante","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"aqua","bold":true}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"Item Mas valioso que el ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Billete
+            ","italic":false,"color":"gold"},{"text":"con","italic":false,"color":"dark_gray"}]}'
+          - '{"text":"","extra":[{"text":"suficientes puedes comprar ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Protecciones","italic":false,"color":"light_purple"}]}'
+          - '{"text":"","extra":[{"text":"( ","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"se
+            compra en Tienda ","italic":false,"color":"dark_gray"},{"text":"Especial
+            ","italic":false,"color":"light_purple"},{"text":")","italic":false,"color":"gray"}]}'
+          enchants:
+            ARROW_INFINITE: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3700
+        type: BLADE_POTTERY_SHERD
+        amount: 5
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"Billete","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gold","bold":true}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"Se usa para comprar y","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false}]}'
+          - '{"text":"","extra":[{"text":"vender cosa","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false}]}'
+          - '{"text":"","extra":[{"text":"( ","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"se
+            compra en Tienda ","italic":false,"color":"dark_gray"},{"text":"Especial
+            ","italic":false,"color":"light_purple"},{"text":")","italic":false,"color":"gray"}]}'
+          enchants:
+            ARROW_INFINITE: 1
+          repair-cost: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+  snapshots: []
+'3':
+  uniqueId: 5ef321b1-b9cf-4ed8-843b-10eb92d7b200
+  world: world
+  x: 286
+  y: 72
+  z: -113
+  yaw: 1.7321779
+  type: admin
+  name: '&8Tienda &e&lProtecciones'
+  object:
+    type: villager
+    baby: false
+    profession: NONE
+    villagerType: PLAINS
+    villagerLevel: 1
+  recipes:
+    '1':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3700
+        type: DEEPSLATE_COAL_ORE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"Porteccion ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_purple","bold":false},{"text":"de
+            ","italic":false,"color":"dark_gray"},{"text":"Carbon","italic":false,"color":"gray","bold":true}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"Porteje una distancia de ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"8x8
+            ","italic":false,"color":"gray","bold":true},{"text":"blokes","italic":false,"color":"dark_gray"}]}'
+          PublicBukkitValues: |-
+            {
+                "protectionstones:ispsblock": 1b
+            }
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3700
+        type: PRISMARINE_CRYSTALS
+        amount: 6
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"Diamante","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"aqua","bold":true}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"Item Mas valioso que el ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Billete
+            ","italic":false,"color":"gold"},{"text":"con","italic":false,"color":"dark_gray"}]}'
+          - '{"text":"","extra":[{"text":"suficientes puedes comprar ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Protecciones","italic":false,"color":"light_purple"}]}'
+          - '{"text":"","extra":[{"text":"( ","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"se
+            compra en Tienda ","italic":false,"color":"dark_gray"},{"text":"Especial
+            ","italic":false,"color":"light_purple"},{"text":")","italic":false,"color":"gray"}]}'
+          enchants:
+            ARROW_INFINITE: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+    '2':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3700
+        type: DEEPSLATE_IRON_ORE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"Porteccion ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_purple","bold":false},{"text":"de
+            ","italic":false,"color":"dark_gray"},{"text":"Hierro","italic":false,"color":"white","bold":true}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"Porteje una distancia de ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"16x16
+            ","italic":false,"color":"white","bold":true},{"text":"blokes","italic":false,"color":"dark_gray"}]}'
+          PublicBukkitValues: |-
+            {
+                "protectionstones:ispsblock": 1b
+            }
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3700
+        type: PRISMARINE_CRYSTALS
+        amount: 12
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"Diamante","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"aqua","bold":true}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"Item Mas valioso que el ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Billete
+            ","italic":false,"color":"gold"},{"text":"con","italic":false,"color":"dark_gray"}]}'
+          - '{"text":"","extra":[{"text":"suficientes puedes comprar ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Protecciones","italic":false,"color":"light_purple"}]}'
+          - '{"text":"","extra":[{"text":"( ","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"se
+            compra en Tienda ","italic":false,"color":"dark_gray"},{"text":"Especial
+            ","italic":false,"color":"light_purple"},{"text":")","italic":false,"color":"gray"}]}'
+          enchants:
+            ARROW_INFINITE: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3700
+        type: DEEPSLATE_COAL_ORE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"Porteccion ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_purple","bold":false},{"text":"de
+            ","italic":false,"color":"dark_gray"},{"text":"Carbon","italic":false,"color":"gray","bold":true}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"Porteje una distancia de ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"8x8
+            ","italic":false,"color":"gray","bold":true},{"text":"blokes","italic":false,"color":"dark_gray"}]}'
+          PublicBukkitValues: |-
+            {
+                "protectionstones:ispsblock": 1b
+            }
+    '3':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3700
+        type: DEEPSLATE_GOLD_ORE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"Porteccion ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_purple","bold":false},{"text":"de
+            ","italic":false,"color":"dark_gray"},{"text":"Oro","italic":false,"color":"yellow","bold":true}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"Porteje una distancia de ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"32x32
+            ","italic":false,"color":"yellow","bold":true},{"text":"blokes","italic":false,"color":"dark_gray"}]}'
+          PublicBukkitValues: |-
+            {
+                "protectionstones:ispsblock": 1b
+            }
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3700
+        type: PRISMARINE_CRYSTALS
+        amount: 16
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"Diamante","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"aqua","bold":true}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"Item Mas valioso que el ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Billete
+            ","italic":false,"color":"gold"},{"text":"con","italic":false,"color":"dark_gray"}]}'
+          - '{"text":"","extra":[{"text":"suficientes puedes comprar ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Protecciones","italic":false,"color":"light_purple"}]}'
+          - '{"text":"","extra":[{"text":"( ","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"se
+            compra en Tienda ","italic":false,"color":"dark_gray"},{"text":"Especial
+            ","italic":false,"color":"light_purple"},{"text":")","italic":false,"color":"gray"}]}'
+          enchants:
+            ARROW_INFINITE: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3700
+        type: DEEPSLATE_IRON_ORE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"Porteccion ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_purple","bold":false},{"text":"de
+            ","italic":false,"color":"dark_gray"},{"text":"Hierro","italic":false,"color":"white","bold":true}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"Porteje una distancia de ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"16x16
+            ","italic":false,"color":"white","bold":true},{"text":"blokes","italic":false,"color":"dark_gray"}]}'
+          PublicBukkitValues: |-
+            {
+                "protectionstones:ispsblock": 1b
+            }
+    '4':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3700
+        type: DEEPSLATE_EMERALD_ORE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"Porteccion ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_purple","bold":false},{"text":"de
+            ","italic":false,"color":"dark_gray"},{"text":"Esmeralda","italic":false,"color":"dark_green","bold":true}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"Porteje una distancia de ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"64x64
+            ","italic":false,"color":"dark_green","bold":true},{"text":"blokes","italic":false,"color":"dark_gray"}]}'
+          PublicBukkitValues: |-
+            {
+                "protectionstones:ispsblock": 1b
+            }
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3700
+        type: PRISMARINE_CRYSTALS
+        amount: 24
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"Diamante","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"aqua","bold":true}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"Item Mas valioso que el ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Billete
+            ","italic":false,"color":"gold"},{"text":"con","italic":false,"color":"dark_gray"}]}'
+          - '{"text":"","extra":[{"text":"suficientes puedes comprar ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Protecciones","italic":false,"color":"light_purple"}]}'
+          - '{"text":"","extra":[{"text":"( ","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"se
+            compra en Tienda ","italic":false,"color":"dark_gray"},{"text":"Especial
+            ","italic":false,"color":"light_purple"},{"text":")","italic":false,"color":"gray"}]}'
+          enchants:
+            ARROW_INFINITE: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3700
+        type: DEEPSLATE_GOLD_ORE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"Porteccion ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_purple","bold":false},{"text":"de
+            ","italic":false,"color":"dark_gray"},{"text":"Oro","italic":false,"color":"yellow","bold":true}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"Porteje una distancia de ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"32x32
+            ","italic":false,"color":"yellow","bold":true},{"text":"blokes","italic":false,"color":"dark_gray"}]}'
+          PublicBukkitValues: |-
+            {
+                "protectionstones:ispsblock": 1b
+            }
+    '5':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3700
+        type: DEEPSLATE_DIAMOND_ORE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"Porteccion ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_purple","bold":false},{"text":"de
+            ","italic":false,"color":"dark_gray"},{"text":"Diamante","italic":false,"color":"aqua","bold":true}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"Porteje una distancia de ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"124x124
+            ","italic":false,"color":"aqua","bold":true},{"text":"blokes","italic":false,"color":"dark_gray"}]}'
+          PublicBukkitValues: |-
+            {
+                "protectionstones:ispsblock": 1b
+            }
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3700
+        type: PRISMARINE_CRYSTALS
+        amount: 32
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"Diamante","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"aqua","bold":true}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"Item Mas valioso que el ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Billete
+            ","italic":false,"color":"gold"},{"text":"con","italic":false,"color":"dark_gray"}]}'
+          - '{"text":"","extra":[{"text":"suficientes puedes comprar ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Protecciones","italic":false,"color":"light_purple"}]}'
+          - '{"text":"","extra":[{"text":"( ","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"se
+            compra en Tienda ","italic":false,"color":"dark_gray"},{"text":"Especial
+            ","italic":false,"color":"light_purple"},{"text":")","italic":false,"color":"gray"}]}'
+          enchants:
+            ARROW_INFINITE: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3700
+        type: DEEPSLATE_EMERALD_ORE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"Porteccion ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_purple","bold":false},{"text":"de
+            ","italic":false,"color":"dark_gray"},{"text":"Esmeralda","italic":false,"color":"dark_green","bold":true}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"Porteje una distancia de ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"64x64
+            ","italic":false,"color":"dark_green","bold":true},{"text":"blokes","italic":false,"color":"dark_gray"}]}'
+          PublicBukkitValues: |-
+            {
+                "protectionstones:ispsblock": 1b
+            }
+  snapshots: []

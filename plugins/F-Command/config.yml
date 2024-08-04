@@ -1,0 +1,63 @@
+# Only turn this on if you're asked to
+# Might spam your console and/or chat ;-)
+debug: false
+
+# Do not change this!
+version: 1
+
+# Example configuration
+command:
+  # Name of the Command.
+  command1:
+    # Key to press
+    # f/q
+    key: f # Default f
+
+    # Does the Player need to sneak to execute the command?
+    # True/False
+    requireShift: true  # Default true
+
+    # Which permission is required to execute this command?
+    permission: f-command.example  # Default none
+
+    # Which command should be executed?
+    # You can also use PlaceholderAPI here
+    # Enter without /
+    commandList:
+      - pvp toggle
+
+    # Stopping item drop or hand swap from happening
+    cancel: false  # Default false
+
+    # Should the command be executed as the Server?
+    executeAsServer: false  # default false
+
+  # command2:
+  #   key: F
+  #   requireShift: True
+  #   permission: f-command.example
+  #   commandList:
+  #     - say You pressed the F key
+  #     - say and you're also shifting.
+  #     - say Have you noticed that these where three commands executed on one key press?
+  #     - say Cool, right?
+  #   cancel: true
+  #   executeAsServer: false
+
+  # command3:
+  #   key: q
+  #   requireShift: True
+  #   permission: f-command.example
+  #   commandList:
+  #     - say q shift
+  #   cancel: true
+  #   executeAsServer: false
+
+  # command4:
+  #   key: Q
+  #   requireShift: false
+  #   permission: f-command.example
+  #   commandList:
+  #     - say Q no shift
+  #   cancel: true
+  #   executeAsServer: false
