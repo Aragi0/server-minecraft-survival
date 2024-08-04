@@ -1,0 +1,676 @@
+keycomun:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3700
+    type: COAST_ARMOR_TRIM_SMITHING_TEMPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"","extra":[{"text":"Comun ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"aqua","bold":true},{"text":"Key","italic":false,"color":"gray","bold":false}]}'
+      lore:
+      - '{"text":"","extra":[{"text":"key para abrir caja ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Comun","italic":false,"color":"aqua","bold":true}]}'
+      enchants:
+        MENDING: 1
+      repair-cost: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_POTION_EFFECTS
+      PublicBukkitValues: |-
+        {
+            "excellentcrates:crate_key.id": "comun"
+        }
+keyepica:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3700
+    type: SPIRE_ARMOR_TRIM_SMITHING_TEMPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"","extra":[{"text":"Epica ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"light_purple","bold":true},{"text":"Key","italic":false,"color":"gray","bold":false}]}'
+      lore:
+      - '{"text":"","extra":[{"text":"key para abrir caja ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Epica","italic":false,"color":"light_purple","bold":true}]}'
+      enchants:
+        MENDING: 1
+      repair-cost: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_POTION_EFFECTS
+      PublicBukkitValues: |-
+        {
+            "excellentcrates:crate_key.id": "epico"
+        }
+keyespecial:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3700
+    type: WILD_ARMOR_TRIM_SMITHING_TEMPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"","extra":[{"text":"Especial ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_green","bold":true},{"text":"Key","italic":false,"color":"gray","bold":false}]}'
+      lore:
+      - '{"text":"","extra":[{"text":"key para abrir caja ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Especial","italic":false,"color":"dark_green","bold":true}]}'
+      enchants:
+        MENDING: 1
+      repair-cost: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_POTION_EFFECTS
+      PublicBukkitValues: |-
+        {
+            "excellentcrates:crate_key.id": "especial"
+        }
+keylegendaria:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3700
+    type: EYE_ARMOR_TRIM_SMITHING_TEMPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"","extra":[{"text":"Legendaria ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"yellow","bold":false},{"text":"Key","italic":false,"color":"gray"}]}'
+      lore:
+      - '{"text":"","extra":[{"text":"key para abrir caja ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Legendaria","italic":false,"color":"yellow","bold":true}]}'
+      enchants:
+        MENDING: 1
+      repair-cost: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_POTION_EFFECTS
+      PublicBukkitValues: |-
+        {
+            "excellentcrates:crate_key.id": "legendario"
+        }
+keypococomun:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3700
+    type: TIDE_ARMOR_TRIM_SMITHING_TEMPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"","extra":[{"text":"Poco Comun ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_aqua","bold":true},{"text":"Key","italic":false,"color":"gray","bold":false}]}'
+      lore:
+      - '{"text":"","extra":[{"text":"key para abrir caja ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Poco
+        Comun","italic":false,"color":"dark_aqua","bold":true}]}'
+      enchants:
+        MENDING: 1
+      repair-cost: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_POTION_EFFECTS
+      PublicBukkitValues: |-
+        {
+            "excellentcrates:crate_key.id": "poco_comun"
+        }
+billete:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3700
+    type: BLADE_POTTERY_SHERD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"","extra":[{"text":"Billete","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gold","bold":true}]}'
+      lore:
+      - '{"text":"","extra":[{"text":"Dinero usado para comprar cosas al vendedor
+        de gacha y mas","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false}]}'
+      enchants:
+        ARROW_INFINITE: 1
+      repair-cost: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+ruunerhead:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3700
+    type: NETHERITE_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: ARMOR
+      display-name: '{"text":"","extra":[{"text":"Runner ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"aqua","bold":true},{"text":"helmet
+        (","italic":false,"color":"dark_gray","bold":false},{"text":"Legendario","italic":false,"color":"yellow","bold":true},{"text":")","italic":false,"color":"dark_gray","bold":false}]}'
+      attribute-modifiers:
+        GENERIC_MOVEMENT_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.05
+          name: GENERIC_MOVEMENT_SPEED
+          slot: HEAD
+          uuid: 945832a6-08d0-4800-ab52-56dd47c81304
+          operation: 1
+        GENERIC_ARMOR:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 3.0
+          name: GENERIC_ARMOR
+          slot: HEAD
+          uuid: 0e57078e-52af-4aac-862a-ce8b6f542b3f
+          operation: 0
+        GENERIC_ARMOR_TOUGHNESS:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 3.0
+          name: GENERIC_ARMOR_TOUGHNESS
+          slot: HEAD
+          uuid: 1ea37356-c99d-44ca-bb63-c7e94b214a2b
+          operation: 0
+        GENERIC_KNOCKBACK_RESISTANCE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.1
+          name: GENERIC_KNOCKBACK_RESISTANCE
+          slot: HEAD
+          uuid: 471dd698-cd58-4558-a101-b596b3edd623
+          operation: 0
+      trim:
+        material: minecraft:diamond
+        pattern: minecraft:vex
+ruunerchest:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3700
+    type: NETHERITE_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: ARMOR
+      display-name: '{"text":"","extra":[{"text":"Runner ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"aqua","bold":true},{"text":"chest
+        (","italic":false,"color":"dark_gray","bold":false},{"text":"Legendario","italic":false,"color":"yellow","bold":true},{"text":")","italic":false,"color":"dark_gray","bold":false}]}'
+      attribute-modifiers:
+        GENERIC_MOVEMENT_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.02
+          name: GENERIC_MOVEMENT_SPEED
+          slot: CHEST
+          uuid: 857d0019-d0fd-4b60-bac6-3ecd3a93acb2
+          operation: 1
+        GENERIC_ARMOR:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 8.0
+          name: GENERIC_ARMOR
+          slot: CHEST
+          uuid: cd3f1581-545c-4beb-b978-97670ca3cb69
+          operation: 0
+        GENERIC_ARMOR_TOUGHNESS:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 3.0
+          name: GENERIC_ARMOR_TOUGHNESS
+          slot: CHEST
+          uuid: 0c4c02eb-b1f0-4d85-b81d-4760979bdd0d
+          operation: 0
+        GENERIC_KNOCKBACK_RESISTANCE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.1
+          name: GENERIC_KNOCKBACK_RESISTANCE
+          slot: CHEST
+          uuid: b3432163-d9fe-4f33-afec-c1fd267282f5
+          operation: 0
+      trim:
+        material: minecraft:diamond
+        pattern: minecraft:silence
+ruunerlegs:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3700
+    type: NETHERITE_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: ARMOR
+      display-name: '{"text":"","extra":[{"text":"Runner ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"aqua","bold":true},{"text":"legs
+        (","italic":false,"color":"dark_gray","bold":false},{"text":"Legendario","italic":false,"color":"yellow","bold":true},{"text":")","italic":false,"color":"dark_gray","bold":false}]}'
+      attribute-modifiers:
+        GENERIC_MOVEMENT_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.03
+          name: GENERIC_MOVEMENT_SPEED
+          slot: LEGS
+          uuid: 501d921c-62a2-4dde-8c20-90b85b138559
+          operation: 1
+        GENERIC_ARMOR:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 6.0
+          name: GENERIC_ARMOR
+          slot: LEGS
+          uuid: 1f808b25-fd1d-4b65-a411-20f2300c790d
+          operation: 0
+        GENERIC_ARMOR_TOUGHNESS:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 3.0
+          name: GENERIC_ARMOR_TOUGHNESS
+          slot: LEGS
+          uuid: c6029b12-bfb2-4999-b783-5439b082d3b5
+          operation: 0
+        GENERIC_KNOCKBACK_RESISTANCE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.1
+          name: GENERIC_KNOCKBACK_RESISTANCE
+          slot: LEGS
+          uuid: 984f7593-422b-45c2-a100-8adbef73f939
+          operation: 0
+      trim:
+        material: minecraft:diamond
+        pattern: minecraft:dune
+ruunerfeed:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3700
+    type: NETHERITE_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: ARMOR
+      display-name: '{"text":"","extra":[{"text":"Runner ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"aqua","bold":true},{"text":"feed
+        (","italic":false,"color":"dark_gray","bold":false},{"text":"Legendario","italic":false,"color":"yellow","bold":true},{"text":")","italic":false,"color":"dark_gray","bold":false}]}'
+      attribute-modifiers:
+        GENERIC_MOVEMENT_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.1
+          name: GENERIC_MOVEMENT_SPEED
+          slot: FEET
+          uuid: ca80d5ee-52b3-48c2-af8a-21b521426d1b
+          operation: 1
+        GENERIC_ARMOR:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 3.0
+          name: GENERIC_ARMOR
+          slot: FEET
+          uuid: 27bdec4e-2047-417b-bb26-1d0eda495987
+          operation: 0
+        GENERIC_ARMOR_TOUGHNESS:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 3.0
+          name: GENERIC_ARMOR_TOUGHNESS
+          slot: FEET
+          uuid: ff097226-b639-48ce-b831-a85eb8e44d65
+          operation: 0
+        GENERIC_KNOCKBACK_RESISTANCE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.1
+          name: GENERIC_KNOCKBACK_RESISTANCE
+          slot: FEET
+          uuid: ef36b922-58c0-4265-9f05-a423d028c4c8
+          operation: 0
+      trim:
+        material: minecraft:diamond
+        pattern: minecraft:coast
+ragehead:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3700
+    type: NETHERITE_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: ARMOR
+      display-name: '{"text":"","extra":[{"text":"Rage ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"light_purple","bold":true},{"text":"helmet
+        (","italic":false,"color":"dark_gray","bold":false},{"text":"Legendario","italic":false,"color":"yellow","bold":true},{"text":")","italic":false,"color":"dark_gray","bold":false}]}'
+      attribute-modifiers:
+        GENERIC_ATTACK_DAMAGE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 4.0
+          name: GENERIC_ATTACK_DAMAGE
+          slot: HEAD
+          uuid: 17e2a9f4-c407-4bc3-b72d-6884cf62f083
+          operation: 0
+        GENERIC_ARMOR:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 3.0
+          name: GENERIC_ARMOR
+          slot: HEAD
+          uuid: 471a3e14-dd14-4147-83fc-a40f3600b962
+          operation: 0
+        GENERIC_ARMOR_TOUGHNESS:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 3.0
+          name: GENERIC_ARMOR_TOUGHNESS
+          slot: HEAD
+          uuid: afa225f8-86ce-4fb6-b9d1-2aa49d17ab27
+          operation: 0
+        GENERIC_KNOCKBACK_RESISTANCE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.1
+          name: GENERIC_KNOCKBACK_RESISTANCE
+          slot: HEAD
+          uuid: dddb7005-aa73-42fa-ab81-e73dc76b5b2f
+          operation: 0
+      trim:
+        material: minecraft:amethyst
+        pattern: minecraft:vex
+ragechest:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3700
+    type: NETHERITE_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: ARMOR
+      display-name: '{"text":"","extra":[{"text":"Rage ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"light_purple","bold":true},{"text":"chest
+        (","italic":false,"color":"dark_gray","bold":false},{"text":"Legendario","italic":false,"color":"yellow","bold":true},{"text":")","italic":false,"color":"dark_gray","bold":false}]}'
+      attribute-modifiers:
+        GENERIC_ATTACK_DAMAGE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 3.0
+          name: GENERIC_ATTACK_DAMAGE
+          slot: CHEST
+          uuid: a61e1b9b-f9fc-41a5-b2e2-360504c9e375
+          operation: 0
+        GENERIC_ARMOR:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 8.0
+          name: GENERIC_ARMOR
+          slot: CHEST
+          uuid: 320eada1-b6bf-440c-ab91-27b0f7758ea4
+          operation: 0
+        GENERIC_ARMOR_TOUGHNESS:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 3.0
+          name: GENERIC_ARMOR_TOUGHNESS
+          slot: CHEST
+          uuid: bfb06494-d224-44da-99b9-1c16b174afec
+          operation: 0
+        GENERIC_KNOCKBACK_RESISTANCE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.1
+          name: GENERIC_KNOCKBACK_RESISTANCE
+          slot: CHEST
+          uuid: 7ea84ef2-418c-42cb-a660-939d0d0a927a
+          operation: 0
+      trim:
+        material: minecraft:amethyst
+        pattern: minecraft:silence
+ragelegs:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3700
+    type: NETHERITE_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: ARMOR
+      display-name: '{"text":"","extra":[{"text":"Rage ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"light_purple","bold":true},{"text":"legs
+        (","italic":false,"color":"dark_gray","bold":false},{"text":"Legendario","italic":false,"color":"yellow","bold":true},{"text":")","italic":false,"color":"dark_gray","bold":false}]}'
+      attribute-modifiers:
+        GENERIC_ARMOR:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 6.0
+          name: GENERIC_ARMOR
+          slot: LEGS
+          uuid: 91599dd6-cb33-46f7-9029-d58ae87794f2
+          operation: 0
+        GENERIC_ARMOR_TOUGHNESS:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 3.0
+          name: GENERIC_ARMOR_TOUGHNESS
+          slot: LEGS
+          uuid: 3d7bff8b-59a8-4d1b-8a43-3290bf1a589b
+          operation: 0
+        GENERIC_ATTACK_DAMAGE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 2.0
+          name: GENERIC_ATTACK_DAMAGE
+          slot: LEGS
+          uuid: 373f1bc8-b2ec-4d13-89aa-844b50634e36
+          operation: 0
+        GENERIC_KNOCKBACK_RESISTANCE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.1
+          name: GENERIC_KNOCKBACK_RESISTANCE
+          slot: LEGS
+          uuid: c6c07c3a-5939-40c1-b221-62f2670a9a39
+          operation: 0
+      trim:
+        material: minecraft:amethyst
+        pattern: minecraft:dune
+ragfeed:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3700
+    type: NETHERITE_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: ARMOR
+      display-name: '{"text":"","extra":[{"text":"Rage ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"light_purple","bold":true},{"text":"feed
+        (","italic":false,"color":"dark_gray","bold":false},{"text":"Legendario","italic":false,"color":"yellow","bold":true},{"text":")","italic":false,"color":"dark_gray","bold":false}]}'
+      attribute-modifiers:
+        GENERIC_ARMOR:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 3.0
+          name: GENERIC_ARMOR
+          slot: FEET
+          uuid: 12c2541c-aaba-4908-951a-5981e12fbc52
+          operation: 0
+        GENERIC_ATTACK_DAMAGE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 2.0
+          name: GENERIC_ATTACK_DAMAGE
+          slot: FEET
+          uuid: 7af0fa27-ba78-4429-b547-badee375891d
+          operation: 0
+        GENERIC_ARMOR_TOUGHNESS:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 3.0
+          name: GENERIC_ARMOR_TOUGHNESS
+          slot: FEET
+          uuid: e330c8a3-04a3-4eb7-893a-f7feb9ae940c
+          operation: 0
+        GENERIC_KNOCKBACK_RESISTANCE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.1
+          name: GENERIC_KNOCKBACK_RESISTANCE
+          slot: FEET
+          uuid: 99e5b2da-c7d7-4deb-834c-a1c048e113b3
+          operation: 0
+      trim:
+        material: minecraft:amethyst
+        pattern: minecraft:coast
+tankfeed:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3700
+    type: NETHERITE_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: ARMOR
+      display-name: '{"text":"","extra":[{"text":"tank ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"red","bold":true},{"text":"feed
+        (","italic":false,"color":"dark_gray","bold":false},{"text":"Legendario","italic":false,"color":"yellow","bold":true},{"text":")","italic":false,"color":"dark_gray","bold":false}]}'
+      attribute-modifiers:
+        GENERIC_MAX_HEALTH:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 3.0
+          name: GENERIC_MAX_HEALTH
+          slot: FEET
+          uuid: 3470c086-37f8-4643-b02f-184ebb658afc
+          operation: 0
+        GENERIC_ARMOR:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 3.0
+          name: GENERIC_ARMOR
+          slot: FEET
+          uuid: 8d53055e-b1c3-4d71-9d26-678a9bd09f23
+          operation: 0
+        GENERIC_ARMOR_TOUGHNESS:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 3.0
+          name: GENERIC_ARMOR_TOUGHNESS
+          slot: FEET
+          uuid: 74c7e260-c6f9-45c8-a530-93d9d249c5c7
+          operation: 0
+        GENERIC_KNOCKBACK_RESISTANCE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.1
+          name: GENERIC_KNOCKBACK_RESISTANCE
+          slot: FEET
+          uuid: 3c8ffa6f-8639-4564-bdf7-d9cee8d9f747
+          operation: 0
+      trim:
+        material: minecraft:redstone
+        pattern: minecraft:coast
+tanklegs:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3700
+    type: NETHERITE_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: ARMOR
+      display-name: '{"text":"","extra":[{"text":"tank ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"red","bold":true},{"text":"legs
+        (","italic":false,"color":"dark_gray","bold":false},{"text":"Legendario","italic":false,"color":"yellow","bold":true},{"text":")","italic":false,"color":"dark_gray","bold":false}]}'
+      attribute-modifiers:
+        GENERIC_MAX_HEALTH:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 5.0
+          name: GENERIC_MAX_HEALTH
+          slot: LEGS
+          uuid: 120bdc37-454c-4c58-8d74-0adaea2f3a07
+          operation: 0
+        GENERIC_ARMOR:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 6.0
+          name: GENERIC_ARMOR
+          slot: LEGS
+          uuid: b1431c58-4fcd-4c34-8a86-9040b5351772
+          operation: 0
+        GENERIC_ARMOR_TOUGHNESS:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 3.0
+          name: GENERIC_ARMOR_TOUGHNESS
+          slot: LEGS
+          uuid: 020615e3-5fe1-4285-877a-b13cb5a4e5ab
+          operation: 0
+        GENERIC_KNOCKBACK_RESISTANCE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.1
+          name: GENERIC_KNOCKBACK_RESISTANCE
+          slot: LEGS
+          uuid: 35738377-92f7-4732-b8d4-eb006c0665e8
+          operation: 0
+      trim:
+        material: minecraft:redstone
+        pattern: minecraft:dune
+tankchest:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3700
+    type: NETHERITE_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: ARMOR
+      display-name: '{"text":"","extra":[{"text":"tank ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"red","bold":true},{"text":"chest
+        (","italic":false,"color":"dark_gray","bold":false},{"text":"Legendario","italic":false,"color":"yellow","bold":true},{"text":")","italic":false,"color":"dark_gray","bold":false}]}'
+      attribute-modifiers:
+        GENERIC_MAX_HEALTH:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 6.0
+          name: GENERIC_MAX_HEALTH
+          slot: CHEST
+          uuid: f254e356-0e89-45dd-80b1-34d1a70f2b45
+          operation: 0
+        GENERIC_ARMOR:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 8.0
+          name: GENERIC_ARMOR
+          slot: CHEST
+          uuid: fdec12f6-30a2-434f-ab91-018e8c50e530
+          operation: 0
+        GENERIC_ARMOR_TOUGHNESS:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 3.0
+          name: GENERIC_ARMOR_TOUGHNESS
+          slot: CHEST
+          uuid: 8e939f54-892c-4367-a2ac-f7bc5b3b7689
+          operation: 0
+        GENERIC_KNOCKBACK_RESISTANCE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.1
+          name: GENERIC_KNOCKBACK_RESISTANCE
+          slot: CHEST
+          uuid: 8c09b8db-02b9-43ee-b217-bc170264fde6
+          operation: 0
+      trim:
+        material: minecraft:redstone
+        pattern: minecraft:silence
+tankhead:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3700
+    type: NETHERITE_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: ARMOR
+      display-name: '{"text":"","extra":[{"text":"tank ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"red","bold":true},{"text":"helmet
+        (","italic":false,"color":"dark_gray","bold":false},{"text":"Legendario","italic":false,"color":"yellow","bold":true},{"text":")","italic":false,"color":"dark_gray","bold":false}]}'
+      attribute-modifiers:
+        GENERIC_MAX_HEALTH:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 2.0
+          name: GENERIC_MAX_HEALTH
+          slot: HEAD
+          uuid: cbec6c56-293a-43c7-8acc-009d9b9245d0
+          operation: 0
+        GENERIC_ARMOR:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 3.0
+          name: GENERIC_ARMOR
+          slot: HEAD
+          uuid: 91f2b5aa-7ac4-4966-af35-9a1f81acff3a
+          operation: 0
+        GENERIC_ARMOR_TOUGHNESS:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 3.0
+          name: GENERIC_ARMOR_TOUGHNESS
+          slot: HEAD
+          uuid: 215154ae-ced0-459f-8283-c52d8d6fdd76
+          operation: 0
+        GENERIC_KNOCKBACK_RESISTANCE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.1
+          name: GENERIC_KNOCKBACK_RESISTANCE
+          slot: HEAD
+          uuid: a6355aec-2b8e-4902-9d3d-e83a455d8ee2
+          operation: 0
+      trim:
+        material: minecraft:redstone
+        pattern: minecraft:vex
+tutorial:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3700
+    type: WRITTEN_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: BOOK_SIGNED
+      display-name: '{"text":"","extra":[{"text":"a","obfuscated":true,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"TUTORIAL","obfuscated":false,"italic":false,"color":"gold","bold":true},{"text":"a","obfuscated":true,"italic":false,"color":"gray","bold":false}]}'
+      lore:
+      - '{"text":"","extra":[{"text":"Informacion basica","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false}]}'
+      - '{"text":"","extra":[{"text":"sobre el server","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false}]}'
+      - '{"text":"","extra":[{"text":"comandos etc","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false}]}'
+      title: TUTORIAL
+      author: Aragi
+      pages:
+      - '{"text":"","extra":[{"text":"INFO ","color":"blue","bold":true},"\n",{"text":"SISTEMA
+        GACHA","bold":true},"\n","7En el",{"text":" warp gacha","color":"dark_green","bold":true},",","
+        puedes gastar",{"text":" Billetes","color":"gold","bold":true}," y ",{"text":"Diamantes","color":"dark_aqua","bold":true},"
+        para comprar",{"text":" Keys","bold":true},". ","Dependiendo de su rareza,
+        estas Keys te permitirán abrir cofres y obtener ",{"text":"ítems únicos","color":"red","bold":true},"
+        e increíbles.","\n\n",{"text":"     COMANDOS =>","color":"red","bold":true}]}'
+      - '{"text":"","extra":[{"text":"Comandos de Comercio:","bold":true},"\n",{"text":"/warps
+        tienda","color":"dark_green","bold":true},": lugar donde puedes comprar items
+        unicos como los ",{"text":"Billetes","color":"gold","bold":true}," y las ",{"text":"Protecciones","color":"dark_blue","bold":true},".","\n",{"text":"/warps
+        gacha","color":"dark_green","bold":true},": o tambien llamados ",{"text":"Cajas","color":"blue","bold":true},"
+        lugar donde puedes optener items increibles.","\n",{"text":"/bazar","color":"dark_green","bold":true},":
+        Accede a un lugar donde las personas pueden vender de todo.","\n"]}'
+      - '{"text":"","extra":[{"text":"/tienda","color":"dark_green","bold":true},":
+        Accede a la tienda de ",{"text":"ítems normales","color":"dark_green","bold":true},"
+        de Minecraft.","\n\n",{"text":"Comandos Básicos:","bold":true},"\n",{"text":"/back","color":"dark_green","bold":true},":
+        Te devuelve al lugar donde estabas anteriormente.","\n",{"text":"/spawn","color":"dark_green","bold":true},":
+        Te lleva al punto de inicio del servidor.","\n",{"text":"/sethome","color":"dark_green","bold":true},":
+        Establece tu lugar de spawn o tu casa."]}'
+      - '{"text":"","extra":[{"text":"/home","color":"dark_green","bold":true},":
+        Te transporta a tu casa.\nComandos de Transporte:","\n",{"text":"/tpa ","color":"dark_green","bold":true},{"text":"[jugador]","color":"red","bold":true},":
+        Solicita teletransporte a otro jugador.","\n",{"text":"/tpahere ","color":"dark_green","bold":true},{"text":"[jugador]","color":"red","bold":true},":
+        Solicita que otro jugador se teletransporte a ti."]}'
+      - '{"text":"","extra":[{"text":"/tpaccept","color":"dark_green","bold":true},":
+        Acepta una solicitud de teletransporte.","\n",{"text":"/tpdeny","color":"dark_green","bold":true},":
+        Rechaza una solicitud de teletransporte.","\n\n",{"text":"Comandos de Rango
+        y Misiones:","bold":true},"\n",{"text":"/dailyquests","color":"dark_green","bold":true},":
+        Muestra tus misiones diarias en las cuales ganas ",{"text":"dinero","color":"gold","bold":true},"."]}'
+      - '{"text":"","extra":[{"text":"/rangos","color":"dark_green","bold":true},":
+        Muestra los rangos disponibles para comprar.","\n",{"text":"/skill","color":"dark_green","bold":true},":
+        Muestra tus habilidades.","\n\n",{"text":"Comandos de Protección:","bold":true},"\n",{"text":"/protectionstone
+        view","color":"dark_green","bold":true},": Muestra el área cubierta por tu
+        protección."]}'
+      resolved: true

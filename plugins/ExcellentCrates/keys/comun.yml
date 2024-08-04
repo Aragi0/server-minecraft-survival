@@ -1,0 +1,12 @@
+Name: Comun Key
+Virtual: false
+Item:
+  Material: COAST_ARMOR_TRIM_SMITHING_TEMPLATE
+  Name: '&b&lComun &7Key'
+  Lore:
+  - '&8key para abrir caja &b&lComun'
+  Enchants:
+    mending: 1
+  Item_Flags:
+  - HIDE_ENCHANTS
+  - HIDE_POTION_EFFECTS

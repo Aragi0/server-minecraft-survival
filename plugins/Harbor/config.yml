@@ -1,0 +1,73 @@
+# Harbor - Plugin de mejora de las mecánicas de sueño
+# Un proyecto de código abierto por TechToolbox (@nkomarn)
+# https://github.com/nkomarn/Harbor
+
+# Nota importante sobre Essentials:
+# Asegúrate de negar el permiso "essentials.sleepingignored" para
+# evitar problemas con Harbor y los operadores del servidor cuando uses Essentials.
+
+night-skip:
+  enabled: true # Omitir la noche si un porcentaje de los jugadores en un mundo están durmiendo
+  percentage: 51 # Porcentaje de jugadores necesarios durmiendo para omitir la noche (0 - 100)
+  time-rate: 70 # La cantidad de ticks añadidos al tiempo actual cada tick cuando se omite la noche
+  daytime-ticks: 1200 # El tiempo en ticks que Harbor considera día
+  instant-skip: false # Omitir la noche instantáneamente cuando se alcanza el umbral de porcentaje en lugar de mostrar la animación completa
+  proportional-acceleration: false # Aumentar la velocidad de omisión de la noche basado en la cantidad de jugadores durmiendo
+  clear-rain: true # Despejar la lluvia (si está lloviendo) cuando se omite la noche
+  clear-thunder: true # Despejar el trueno (si está tronando) cuando se omite la noche
+  reset-phantom-statistic: true # Trata a todos en línea como si hubieran dormido en los últimos 3 días después de omitir la noche (consulta /gamerule doInsomnia en 1.15+)
+
+exclusions:
+  ignored-permission: true # Excluir jugadores con el permiso "harbor.ignored" del conteo de jugadores durmiendo
+  exclude-adventure: true # Excluir jugadores en modo aventura del conteo de jugadores durmiendo
+  exclude-creative: true # Excluir jugadores en modo creativo del conteo de jugadores durmiendo
+  exclude-spectator: true # Excluir jugadores en modo espectador del conteo de jugadores durmiendo
+  exclude-vanished: true # Excluir jugadores desaparecidos del conteo de jugadores durmiendo
+
+# Detectar jugadores AFK y automáticamente eliminarlos del conteo de jugadores necesarios para dormir
+# La API de Essentials se usa para la detección de AFK cuando está disponible; de lo contrario, se usa un sistema alternativo
+afk-detection:
+  enabled: true
+  timeout: 15 # Tiempo en minutos hasta que un jugador es considerado AFK
+
+# Lista negra para mundos - Harbor ignorará estos mundos
+blacklisted-worlds:
+  - "world_nether"
+  - "world_the_end"
+whitelist-mode: false # Tratará la lista anterior como una lista blanca en lugar de una lista negra
+
+messages:
+  chat:
+    enabled: true
+    message-cooldown: 5 # El tiempo en segundos antes de que un jugador pueda enviar otro mensaje de entrar o salir de la cama
+    player-sleeping: "&8[&c&lServer&8] &2[player] &8está durmiendo ahora ([sleeping]/[needed], faltan [more] para omitir)."
+    player-left-bed: "&8[&c&lServer&8] &2[player] &8salió de la cama ([sleeping]/[needed], faltan [more] para omitir)."
+    night-skipping:
+      - "&8[&c&lServer&8] &8Acelerando la noche."
+      - "&8[&c&lServer&8] &8Aproximándose rápidamente al día."
+    night-skipped:
+      - "&8[&c&lServer&8] &8La noche ha sido omitida."
+      - "&8[&c&lServer&8] &8Ahhh, finalmente es de mañana."
+      - "&8[&c&lServer&8] &8Arghh, está tan brillante afuera."
+      - "&8[&c&lServer&8] &8Despierta y brilla."
+  actionbar:
+    enabled: true
+    players-sleeping: "&8[&c&lServer&8] &8[sleeping] de [needed] jugadores están durmiendo (faltan [more] para omitir)"
+    night-skipping: "&8[&c&lServer&8] &8Todos están durmiendo - dulces sueños!"
+  bossbar:
+    enabled: true
+    players-sleeping:
+      message: "&8[&c&lServer&8] &f&l[sleeping] de [needed] están durmiendo &7&l(faltan [more])"
+      color: BLUE
+    night-skipping:
+      message: "&8[&c&lServer&8] &f&lTodos están durmiendo. Dulces sueños!"
+      color: GREEN
+  miscellaneous:
+    chat-prefix: "&8[&c&lServer&8] &8&l(&6&lHarbor&8&l)&f "
+    unrecognized-command: "&8[&c&lServer&8] Comando no reconocido."
+
+# Controles internos espeluznantes
+version: 1.6.3
+interval: 1
+metrics: true
+debug: false

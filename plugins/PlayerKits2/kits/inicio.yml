@@ -1,0 +1,237 @@
+cooldown: 1728000
+one_time: false
+auto_armor: true
+permission_required: false
+save_original_items: true
+display:
+  default:
+    id: STONE_SWORD
+    name: '&eKit &l%kit_name%'
+    amount: 1
+    lore:
+    - '&8Kit creado para los'
+    - '&8usuarios resien llegados'
+    - ''
+    - '&2click derecho para ver'
+    item_flags:
+    - HIDE_ATTRIBUTES
+  no_permission:
+    id: BARRIER
+    name: '&c&l%kit_name% &cKit'
+    amount: 1
+    lore:
+    - '&cYou don''t have permissions to claim'
+    - '&cthis kit.'
+  cooldown:
+    id: STONE_SWORD
+    name: '&c&l%kit_name% &cKit'
+    amount: 1
+    lore:
+    - '&cYou need to wait &7%time%'
+    - '&cto claim this kit again.'
+    item_flags:
+    - HIDE_ATTRIBUTES
+items:
+  '1':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3700
+      type: STONE_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"text":"","extra":[{"text":"Kit ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Inicio","italic":false,"color":"yellow","bold":true}]}'
+        enchants:
+          MENDING: 1
+          DURABILITY: 8
+        ItemFlags:
+        - HIDE_ENCHANTS
+  '2':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3700
+      type: STONE_PICKAXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"text":"","extra":[{"text":"Kit ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Inicio","italic":false,"color":"yellow","bold":true}]}'
+        enchants:
+          MENDING: 1
+          DURABILITY: 8
+        ItemFlags:
+        - HIDE_ENCHANTS
+  '3':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3700
+      type: WATER_BUCKET
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"text":"","extra":[{"text":"Kit ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Inicio","italic":false,"color":"yellow","bold":true}]}'
+  '4':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3700
+      type: GOLDEN_APPLE
+      amount: 2
+  '5':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3700
+      type: BAKED_POTATO
+      amount: 48
+  '6':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3700
+      type: WRITTEN_BOOK
+      meta:
+        ==: ItemMeta
+        meta-type: BOOK_SIGNED
+        display-name: '{"text":"","extra":[{"text":"a","obfuscated":true,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"TUTORIAL","obfuscated":false,"italic":false,"color":"gold","bold":true},{"text":"a","obfuscated":true,"italic":false,"color":"gray","bold":false}]}'
+        lore:
+        - '{"text":"","extra":[{"text":"Informacion basica","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false}]}'
+        - '{"text":"","extra":[{"text":"sobre el server","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false}]}'
+        - '{"text":"","extra":[{"text":"comandos etc","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false}]}'
+        title: TUTORIAL
+        author: Aragi
+        pages:
+        - '{"text":"","extra":[{"text":"INFO ","color":"blue","bold":true},"\n",{"text":"SISTEMA
+          GACHA","bold":true},"\n","7En el",{"text":" warp gacha","color":"dark_green","bold":true},",","
+          puedes gastar",{"text":" Billetes","color":"gold","bold":true}," y ",{"text":"Diamantes","color":"dark_aqua","bold":true},"
+          para comprar",{"text":" Keys","bold":true},". ","Dependiendo de su rareza,
+          estas Keys te permitirán abrir cofres y obtener ",{"text":"ítems únicos","color":"red","bold":true},"
+          e increíbles.","\n\n",{"text":"     COMANDOS =>","color":"red","bold":true}]}'
+        - '{"text":"","extra":[{"text":"Comandos de Comercio:","bold":true},"\n",{"text":"/warps
+          tienda","color":"dark_green","bold":true},": lugar donde puedes comprar
+          items unicos como los ",{"text":"Billetes","color":"gold","bold":true},"
+          y las ",{"text":"Protecciones","color":"dark_blue","bold":true},".","\n",{"text":"/warps
+          gacha","color":"dark_green","bold":true},": o tambien llamados ",{"text":"Cajas","color":"blue","bold":true},"
+          lugar donde puedes optener items increibles.","\n",{"text":"/bazar","color":"dark_green","bold":true},":
+          Accede a un lugar donde las personas pueden vender de todo.","\n"]}'
+        - '{"text":"","extra":[{"text":"/tienda","color":"dark_green","bold":true},":
+          Accede a la tienda de ",{"text":"ítems normales","color":"dark_green","bold":true},"
+          de Minecraft.","\n\n",{"text":"Comandos Básicos:","bold":true},"\n",{"text":"/back","color":"dark_green","bold":true},":
+          Te devuelve al lugar donde estabas anteriormente.","\n",{"text":"/spawn","color":"dark_green","bold":true},":
+          Te lleva al punto de inicio del servidor.","\n",{"text":"/sethome","color":"dark_green","bold":true},":
+          Establece tu lugar de spawn o tu casa."]}'
+        - '{"text":"","extra":[{"text":"/home","color":"dark_green","bold":true},":
+          Te transporta a tu casa.\nComandos de Transporte:","\n",{"text":"/tpa ","color":"dark_green","bold":true},{"text":"[jugador]","color":"red","bold":true},":
+          Solicita teletransporte a otro jugador.","\n",{"text":"/tpahere ","color":"dark_green","bold":true},{"text":"[jugador]","color":"red","bold":true},":
+          Solicita que otro jugador se teletransporte a ti."]}'
+        - '{"text":"","extra":[{"text":"/tpaccept","color":"dark_green","bold":true},":
+          Acepta una solicitud de teletransporte.","\n",{"text":"/tpdeny","color":"dark_green","bold":true},":
+          Rechaza una solicitud de teletransporte.","\n\n",{"text":"Comandos de Rango
+          y Misiones:","bold":true},"\n",{"text":"/dailyquests","color":"dark_green","bold":true},":
+          Muestra tus misiones diarias en las cuales ganas ",{"text":"dinero","color":"gold","bold":true},"."]}'
+        - '{"text":"","extra":[{"text":"/rangos","color":"dark_green","bold":true},":
+          Muestra los rangos disponibles para comprar.","\n",{"text":"/skill","color":"dark_green","bold":true},":
+          Muestra tus habilidades.","\n\n",{"text":"Comandos de Protección:","bold":true},"\n",{"text":"/protectionstone
+          view","color":"dark_green","bold":true},": Muestra el área cubierta por
+          tu protección."]}'
+        resolved: true
+  '7':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3700
+      type: EYE_ARMOR_TRIM_SMITHING_TEMPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"text":"","extra":[{"text":"Legendaria ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"yellow","bold":false},{"text":"Key","italic":false,"color":"gray"}]}'
+        lore:
+        - '{"text":"","extra":[{"text":"key para abrir caja ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Legendaria","italic":false,"color":"yellow","bold":true}]}'
+        enchants:
+          MENDING: 1
+        repair-cost: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_POTION_EFFECTS
+        PublicBukkitValues: |-
+          {
+              "excellentcrates:crate_key.id": "legendario"
+          }
+  '8':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3700
+      type: LEATHER_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: COLORABLE_ARMOR
+        display-name: '{"text":"","extra":[{"text":"Kit ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Inicio","italic":false,"color":"yellow","bold":true}]}'
+        enchants:
+          MENDING: 1
+          DURABILITY: 8
+        ItemFlags:
+        - HIDE_ENCHANTS
+  '9':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3700
+      type: LEATHER_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: COLORABLE_ARMOR
+        display-name: '{"text":"","extra":[{"text":"Kit ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Inicio","italic":false,"color":"yellow","bold":true}]}'
+        enchants:
+          MENDING: 1
+          DURABILITY: 8
+        ItemFlags:
+        - HIDE_ENCHANTS
+  '10':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3700
+      type: LEATHER_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: COLORABLE_ARMOR
+        display-name: '{"text":"","extra":[{"text":"Kit ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Inicio","italic":false,"color":"yellow","bold":true}]}'
+        enchants:
+          MENDING: 1
+          DURABILITY: 8
+        ItemFlags:
+        - HIDE_ENCHANTS
+  '11':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3700
+      type: LEATHER_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: COLORABLE_ARMOR
+        display-name: '{"text":"","extra":[{"text":"Kit ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Inicio","italic":false,"color":"yellow","bold":true}]}'
+        enchants:
+          MENDING: 1
+          DURABILITY: 8
+        ItemFlags:
+        - HIDE_ENCHANTS
+  '12':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3700
+      type: SHIELD
+      meta:
+        ==: ItemMeta
+        meta-type: TILE_ENTITY
+        display-name: '{"text":"","extra":[{"text":"Kit ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Inicio","italic":false,"color":"yellow","bold":true}]}'
+        enchants:
+          MENDING: 1
+          DURABILITY: 8
+        ItemFlags:
+        - HIDE_ENCHANTS
+        blockMaterial: SHIELD
+    offhand: true
+actions:
+  claim:
+    '1':
+      action: 'playsound: BLOCK_NOTE_BLOCK_PLING;10;2'
+      execute_before_items: false
+      count_as_item: false
+  error:
+    '1':
+      action: 'playsound: BLOCK_NOTE_BLOCK_PLING;10;0.1'
+      execute_before_items: false
+      count_as_item: false

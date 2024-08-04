@@ -1,0 +1,72 @@
+kits:
+  tools:
+    delay: 10
+    items:
+    - stonesword 1
+    - stoneshovel 1
+    - stonepickaxe 1
+    - stoneaxe 1
+  dtools:
+    delay: 600
+    items:
+    - dpickaxe 1 efficiency:1 durability:1 fortune:1 name:&4Gigadrill lore:The_drill_that_&npierces|the_heavens
+    - dshovel 1 digspeed:3 name:Dwarf lore:Diggy|Diggy|Hole
+    - lhelm 1 color:255,255,255 name:Top_Hat lore:Good_day,_Good_day
+    - daxe:780 1
+    - /broadcast {USERNAME} just got some fancy tools!
+  notch:
+    delay: 6000
+    items:
+    - playerhead 1 player:Notch
+  color:
+    delay: 6000
+    items:
+    - writtenbook 1 title:&4Book_&9o_&6Colors author:KHobbits lore:Ingame_color_codes
+      book:Colors
+  firework:
+    delay: 6000
+    items:
+    - fireworkrocket 1 name:Angry_Creeper color:red fade:green type:creeper power:1
+    - fireworkrocket 1 name:Starry_Night color:yellow,orange fade:blue type:star effect:trail,twinkle
+      power:1
+    - fireworkrocket 2 name:Solar_Wind color:yellow,orange fade:red shape:large effect:twinkle
+      color:yellow,orange fade:red shape:ball effect:trail color:red,purple fade:pink
+      shape:star effect:trail power:1
+  kitinicio:
+    delay: 30
+    items:
+    - stone_sword 1 durability:4
+    - stone_pickaxe 1 durability:4
+    - water_bucket 1
+    - baked_potato 32
+    - golden_apple 2
+    - deepslate_coal_ore 1 name:&5Porteccion_&8de_&7&lCarbon lore:&8Porteje_una_distancia_de_&7&l8x8_&8blokes
+    - blade_pottery_sherd 8 name:&6&lBillete lore:&8Dinero_usado_para_comprar_cosas_al_vendedor_de_gacha_y_mas
+      arrow_infinite:1 itemflags:HIDE_ENCHANTS
+    - leather_boots 1 durability:4 color:10511680
+    - leather_leggings 1 durability:4 color:10511680
+    - leather_chestplate 1 durability:4 color:10511680
+    - leather_helmet 1 durability:4 color:10511680
+    - shield 1 durability:4 basecolor:16383998
+  inicio:
+    delay: 1728000
+    items:
+    - stone_sword 1 name:&8Kit_&e&lInicio mending:1 durability:8 itemflags:HIDE_ENCHANTS
+    - stone_pickaxe 1 name:&8Kit_&e&lInicio mending:1 durability:8 itemflags:HIDE_ENCHANTS
+    - water_bucket 1 name:&8Kit_&e&lInicio
+    - golden_apple 2
+    - baked_potato 48
+    - written_book 1 name:&7&ka&6&lTUTORIAL&7&ka lore:&8Informacion_basica|&8sobre_el_server|&8comandos_etc
+      title:TUTORIAL author:Aragi page1:&9&lINFO_&r|&lSISTEMA_GACHA&r|7En_el&2&l_warp_gacha&r,_puedes_gastar&6&l_Billetes&r_y_&3&lDiamantes&r_para_comprar&l_Keys&r._Dependiendo_de_su_rareza,_estas_Keys_te_permitirán_abrir_cofres_y_obtener_&c&lítems_únicos&r_e_increíbles.||&c&l_____COMANDOS_=>
+      page2:&lComandos_de_Comercio:&r|&2&l/warps_tienda&r:_lugar_donde_puedes_comprar_items_unicos_como_los_&6&lBilletes&r_y_las_&1&lProtecciones&r.|&2&l/warps_gacha&r:_o_tambien_llamados_&9&lCajas&r_lugar_donde_puedes_optener_items_increibles.|&2&l/bazar&r:_Accede_a_un_lugar_donde_las_personas_pueden_vender_de_todo.
+      page3:&2&l/tienda&r:_Accede_a_la_tienda_de_&2&lítems_normales&r_de_Minecraft.||&lComandos_Básicos:&r|&2&l/back&r:_Te_devuelve_al_lugar_donde_estabas_anteriormente.|&2&l/spawn&r:_Te_lleva_al_punto_de_inicio_del_servidor.|&2&l/sethome&r:_Establece_tu_lugar_de_spawn_o_tu_casa.
+      page4:&2&l/home&r:_Te_transporta_a_tu_casa.|Comandos_de_Transporte:|&2&l/tpa_&c&l[jugador]&r:_Solicita_teletransporte_a_otro_jugador.|&2&l/tpahere_&c&l[jugador]&r:_Solicita_que_otro_jugador_se_teletransporte_a_ti.
+      page5:&2&l/tpaccept&r:_Acepta_una_solicitud_de_teletransporte.|&2&l/tpdeny&r:_Rechaza_una_solicitud_de_teletransporte.||&lComandos_de_Rango_y_Misiones:&r|&2&l/dailyquests&r:_Muestra_tus_misiones_diarias_en_las_cuales_ganas_&6&ldinero&r.
+      page6:&2&l/rangos&r:_Muestra_los_rangos_disponibles_para_comprar.|&2&l/skill&r:_Muestra_tus_habilidades.||&lComandos_de_Protección:&r|&2&l/protectionstone_view&r:_Muestra_el_área_cubierta_por_tu_protección.
+    - eye_armor_trim_smithing_template 1 name:&eLegendaria_&7Key lore:&8key_para_abrir_caja_&e&lLegendaria
+      mending:1 itemflags:HIDE_ENCHANTS,HIDE_POTION_EFFECTS
+    - leather_helmet 1 name:&8Kit_&e&lInicio mending:1 durability:8 itemflags:HIDE_ENCHANTScolor:10511680
+    - leather_boots 1 name:&8Kit_&e&lInicio mending:1 durability:8 itemflags:HIDE_ENCHANTScolor:10511680
+    - leather_leggings 1 name:&8Kit_&e&lInicio mending:1 durability:8 itemflags:HIDE_ENCHANTScolor:10511680
+    - leather_chestplate 1 name:&8Kit_&e&lInicio mending:1 durability:8 itemflags:HIDE_ENCHANTScolor:10511680
+    - shield 1 name:&8Kit_&e&lInicio mending:1 durability:8 itemflags:HIDE_ENCHANTSbasecolor:16383998

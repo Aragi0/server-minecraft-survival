@@ -1,0 +1,12 @@
+Name: Legendario Key
+Virtual: false
+Item:
+  Material: EYE_ARMOR_TRIM_SMITHING_TEMPLATE
+  Name: '&eLegendaria &7Key'
+  Lore:
+  - '&8key para abrir caja &e&lLegendaria'
+  Enchants:
+    mending: 1
+  Item_Flags:
+  - HIDE_ENCHANTS
+  - HIDE_POTION_EFFECTS
