@@ -1,0 +1,12 @@
+Name: Especial Key
+Virtual: false
+Item:
+  Material: WILD_ARMOR_TRIM_SMITHING_TEMPLATE
+  Name: '&2&lEspecial &7Key'
+  Lore:
+  - '&8key para abrir caja &2&lEspecial'
+  Enchants:
+    mending: 1
+  Item_Flags:
+  - HIDE_ENCHANTS
+  - HIDE_POTION_EFFECTS

@@ -1,0 +1,586 @@
+Name: '&3&lPoco Comun'
+Preview_Config: default
+Permission_Required: false
+Opening:
+  Cooldown: 0
+Key:
+  # Sets whether or not keys are required to open this crate.
+  Required: true
+  Ids:
+  - poco_comun
+Block:
+  Locations:
+  - 231.0,69.0,-59.0,0.0,0.0,world
+  Pushback:
+    Enabled: true
+  Hologram:
+    Enabled: true
+    Template: default
+    Y_Offset: 0.0
+  Effect:
+    Model: HELIX
+    Particle:
+      Name: ASH
+Milestones:
+  Repeatable: false
+Rewards:
+  List:
+    '18':
+      Name: '18'
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: 1800020009km800fdlkmspb3e9gmct1qc5p74rrn0400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800fdlkmspb3e9gmct1qc5p74rrn0400agrfeln78g00
+      Ignored_For_Permissions: []
+    '8':
+      Name: '8'
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: 2g0004000j9cg01irb9dpim6sj1cpq3kor8c5kmsrb1d5m5uojfdtq762g00dq62po300348obdc5jma0000000i00c8ln66q31dpq6qpbeehpgk0000010g002d5i0053dd5n6aoric5j78ejge9nn8pb3ehkmurg2001motjc001g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg01irb9dpim6sj1cpq3kor8c5kmsrb1d5m5uojfdtq762g00dq62po300348obdc5jma0000000i00c8ln66q31dpq6qpbeehpgk0000010g002d5i0053dd5n6aoric5j78ejge9nn8pb3ehkmurg2001motjc001g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Ignored_For_Permissions: []
+    '6':
+      Name: '6'
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: 2g0004000j9cg01srb9dpim6sj1cpq3kor8c5kmsrb1d5m5uor8clpn8s3cc5q6a2g00dq62po300348obdc5jma0000000i00c8ln66q31dpq6qpbeehpgk0000010g002d5i0053dd5n6aoric5j78ejge9nn8pb3ehkmurg2001motjc001g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg01srb9dpim6sj1cpq3kor8c5kmsrb1d5m5uor8clpn8s3cc5q6a2g00dq62po300348obdc5jma0000000i00c8ln66q31dpq6qpbeehpgk0000010g002d5i0053dd5n6aoric5j78ejge9nn8pb3ehkmurg2001motjc001g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Ignored_For_Permissions: []
+    '5':
+      Name: '5'
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: k00010004qb400d6qqbeclhn4ob6egt66q31d5n6qob9dhfmgpbcdlin82g00dq62po300348obdc5jma0000000i00c8ln66q31dpq6qpbeehpgk0000010g002d5i0053dd5n6aoric5j78ejge9nn8pb3ehkmurg2001motjc001g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb400d6qqbeclhn4ob6egt66q31d5n6qob9dhfmgpbcdlin82g00dq62po300348obdc5jma0000000i00c8ln66q31dpq6qpbeehpgk0000010g002d5i0053dd5n6aoric5j78ejge9nn8pb3ehkmurg2001motjc001g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Ignored_For_Permissions: []
+    '7':
+      Name: '7'
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: 1800020009km800sdlkmspb3e9gmct1qcdk62qbedlgmir2vdhimepr9dpjn62g00dq62po300348obdc5jma0000000i00c8ln66q31dpq6qpbeehpgk0000010g002d5i0053dd5n6aoric5j78ejge9nn8pb3ehkmurg2001motjc001g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800sdlkmspb3e9gmct1qcdk62qbedlgmir2vdhimepr9dpjn62g00dq62po300348obdc5jma0000000i00c8ln66q31dpq6qpbeehpgk0000010g002d5i0053dd5n6aoric5j78ejge9nn8pb3ehkmurg2001motjc001g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Ignored_For_Permissions: []
+    '13':
+      Name: '13'
+      Weight: 25.0
+      Rarity: rare
+      Broadcast: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: 2g0004000j9cg012rb9dpim6sj1cpq3kp39c5mmurj40400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg012rb9dpim6sj1cpq3kp39c5mmurj40400agrfeln78180
+      Ignored_For_Permissions: []
+    '12':
+      Name: '12'
+      Weight: 25.0
+      Rarity: rare
+      Broadcast: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: 2g0004000j9cg012rb9dpim6sj1cpq3kpbdclp62r340400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg012rb9dpim6sj1cpq3kpbdclp62r340400agrfeln781o0
+      Ignored_For_Permissions: []
+    '10':
+      Name: '10'
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: a0000g002d5i005bdd5n6aoric5j78ej5dpi6asive1im2sjc0400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i005bdd5n6aoric5j78ej5dpi6asive1im2sjc0400agrfeln780o0
+      Ignored_For_Permissions: []
+    '9':
+      Name: '9'
+      Weight: 25.0
+      Rarity: rare
+      Broadcast: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: 2g0004000j9cg01mrb9dpim6sj1cpq3kpboe1in4qb5dphmanr2dtq78r350400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg01mrb9dpim6sj1cpq3kpboe1in4qb5dphmanr2dtq78r350400agrfeln78400
+      Ignored_For_Permissions: []
+    '17':
+      Name: '17'
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: 1800020009km800pdlkmspb3e9gmct1qcpkn4pbndtp6mnridthmmpbk18006t31cs5002a6d5p6atrfe9ln60800p36oqb7d1q060000400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800pdlkmspb3e9gmct1qcpkn4pbndtp6mnridthmmpbk18006t31cs5002a6d5p6atrfe9ln60800p36oqb7d1q060000400agrfeln78800
+      Ignored_For_Permissions: []
+    '15':
+      Name: '15'
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: 1800020009km800kdlkmspb3e9gmct1qctnmop2vd5n6errk0400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800kdlkmspb3e9gmct1qctnmop2vd5n6errk0400agrfeln78280
+      Ignored_For_Permissions: []
+    '14':
+      Name: '14'
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: 1800020009km800kdlkmspb3e9gmct1qd5p6urivd5n6errk0400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800kdlkmspb3e9gmct1qd5p6urivd5n6errk0400agrfeln783g0
+      Ignored_For_Permissions: []
+    '11':
+      Name: '11'
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: 2g0004000j9cg01crb9dpim6sj1cpq3kr31e1kn6nrcc5t7ar390400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg01crb9dpim6sj1cpq3kr31e1kn6nrcc5t7ar390400agrfeln78400
+      Ignored_For_Permissions: []
+    '16':
+      Name: '16'
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: 2g0004000j9cg010rb9dpim6sj1cpq3ksr8d5imop0a001n8ob70c00ch31dlgmep80000002801h2msor8c5n78rb5dpq762g00000220009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg010rb9dpim6sj1cpq3ksr8d5imop0a001n8ob70c00ch31dlgmep80000002801h2msor8c5n78rb5dpq762g00000220009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Ignored_For_Permissions: []
+    '19':
+      Name: '19'
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: k00010004qb400bmqqbeclhn4ob6egt76s3cc5pmgnrgdtq6irre18006t31cs4001igdtq6irre00dmqqbeclhn4ob6egt6orrectfn4pb7cln6asj1ehkmurg00400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb400bmqqbeclhn4ob6egt76s3cc5pmgnrgdtq6irre18006t31cs4001igdtq6irre00dmqqbeclhn4ob6egt6orrectfn4pb7cln6asj1ehkmurg00400agrfeln78080
+      Ignored_For_Permissions: []
+    '20':
+      Name: '20'
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: k00010004qb400bmqqbeclhn4ob6egt76s3cc5pmgnrgdtq6irre18006t31cs4001igdtq6irre00b6qqbeclhn4ob6egt6sqb7d1q5utj9edkmurg00400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb400bmqqbeclhn4ob6egt76s3cc5pmgnrgdtq6irre18006t31cs4001igdtq6irre00dmqqbeclhn4ob6egt6orrectfmsqb7d1q5utj9edkmurg00400agrfeln78080
+      Ignored_For_Permissions: []
+    '21':
+      Name: '21'
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: k00010004qb400bmqqbeclhn4ob6egt76s3cc5pmgnrgdtq6irre18006t31cs4001igdtq6irre00dmqqbeclhn4ob6egt6orrectfmirjmd5pmioj9dhkn8u800400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb400bmqqbeclhn4ob6egt76s3cc5pmgnrgdtq6irre18006t31cs4001igdtq6irre00dmqqbeclhn4ob6egt6orrectfmirjmd5pmioj9dhkn8u800400agrfeln78080
+      Ignored_For_Permissions: []
+    '22':
+      Name: '22'
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: 2g0004000j9cg01erb9dpim6sj1cpq3ksrgdhgn6q2ve1nn8qbfdo5000rkc5jgg006a1nn8qbfdo01krb9dpim6sj1cpq3ksrke9nmspqvedrmipjkdpin6so00400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg01erb9dpim6sj1cpq3ksrgdhgn6q2ve1nn8qbfdo5000rkc5jgg006a1nn8qbfdo01krb9dpim6sj1cpq3ksrke9nmspqvedrmipjkdpin6so00400agrfeln78080
+      Ignored_For_Permissions: []
+    '23':
+      Name: '23'
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: a0000g002d5i005rdd5n6aoric5j78ejje1m62sr8bto6ut39dtn0k003ehgme2000p86ut39dtn007jdd5n6aoric5j78ejcdtn6enr6d5p6anriclpmisrkc5n66p800400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i005rdd5n6aoric5j78ejje1m62sr8bto6ut39dtn0k003ehgme2000p86ut39dtn006bdd5n6aoric5j78ej6d5p6anriclpmisrkc5n66p800400agrfeln78080
+      Ignored_For_Permissions: []
+    '3':
+      Name: '3'
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: 1800020009km800jdlkmspb3e9gmct1qedq6urj5btgngp8a001n8ob70c00ch31dlgmep80000002801h2msor8c5n78rb5dpq762g00000420009km800jdlkmspb3e9gmct1qedk62sjgdpin6so2001motjc001g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800jdlkmspb3e9gmct1qedq6urj5btgngp8a001n8ob70c00ch31dlgmep80000002801h2msor8c5n78rb5dpq762g00000420009km800jdlkmspb3e9gmct1qedk62sjgdpin6so2001motjc001g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Ignored_For_Permissions: []
+    '2':
+      Name: '2'
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: 1800020009km800ndlkmspb3e9gmct1qedq6urj5bto6iorbc5s6a2g00dq62po300348obdc5jma0000000i00c8ln66q31dpq6qpbeehpgk0000010g002d5i0053dd5n6aoric5j78ej5cpj6ior9cln66u82001motjc001g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800ndlkmspb3e9gmct1qedq6urj5bto6iorbc5s6a2g00dq62po300348obdc5jma0000000i00c8ln66q31dpq6qpbeehpgk0000010g002d5i0053dd5n6aoric5j78ej5cpj6ior9cln66u82001motjc001g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Ignored_For_Permissions: []
+    '4':
+      Name: '4'
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: 2g0004000j9cg01arb9dpim6sj1cpq3ksrkdtn6anrjetnn4p0a001n8ob70c00ch31dlgmep80000002801h2msor8c5n78rb5dpq762g00000420009km800jdlkmspb3e9gmct1qedk62sjgdpin6so2001motjc001g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg01arb9dpim6sj1cpq3ksrkdtn6anrjetnn4p0a001n8ob70c00ch31dlgmep80000002801h2msor8c5n78rb5dpq762g00000420009km800jdlkmspb3e9gmct1qedk62sjgdpin6so2001motjc001g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Ignored_For_Permissions: []
+    '1':
+      Name: '1'
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: 2g0004000j9cg01crb9dpim6sj1cpq3ktr1ehin4nr2elhmmpbk0400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg01crb9dpim6sj1cpq3ktr1ehin4nr2elhmmpbk0400agrfeln78080
+      Ignored_For_Permissions: []
+    pococomun:
+      Name: Pococomun
+      Weight: 25.0
+      Rarity: rare
+      Broadcast: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: k00010004qb400mmqqbeclhn4ob6egt76q31e1in4nr1e9mmusivehp6iravedmmit38d5n6enrkclmn0r31ehigk003ehgme2g00ti6isrgdhgni2000h762rb5029nm8jkcls788hq48h2o8j5f1q74o9279dnm8jkcls788hq49o6uorf41hmurbldoh2o8jfc9j7asr3c5q6ap1279j62r3jckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8j3dtm6ush278h7eq39ehii4b12c9nmop1279j62r3jclulqv8018014k3lc9m6ioq2ellmmqbkapgmotb5ec400735f1hmar3ccln78oric5q6aspqcdp62t35btlmau9ed5i002jgdthmunr3dtmnarg01400ohbecdk62rjkdlimst3j1800000110004qb40096qqbeclhn4ob6egt6irj6d5n6it3p08006r3mdg0020000400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb400mmqqbeclhn4ob6egt76q31e1in4nr1e9mmusivehp6iravedmmit38d5n6enrkclmn0r31ehigk003ehgme2g00ti6isrgdhgni2000h762rb5029nm8jkcls788hq48h2o8j5f1q74o9279dnm8jkcls788hq49o6uorf41hmurbldoh2o8jfc9j7asr3c5q6ap1279j62r3jckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8j3dtm6ush278h7eq39ehii4b12c9nmop1279j62r3jclulqv8018014k3lc9m6ioq2ellmmqbkapgmotb5ec400735f1hmar3ccln78oric5q6aspqcdp62t35btlmau9ed5i002jgdthmunr3dtmnarg01400ohbecdk62rjkdlimst3j1800000110004qb40096qqbeclhn4ob6egt6irj6d5n6it3p08006r3mdg0020000400agrfeln780g0
+      Ignored_For_Permissions: []
+    especial:
+      Name: Especial
+      Weight: 25.0
+      Rarity: legendary
+      Broadcast: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: a0000g002d5i00ajdd5n6aoric5j78ej5f5iluobidlnn4nrke9kmqnrjdlkn8q39dpjlut35dlo6oobkck5000rkc5jgk007chkn6s3cc5sgg0049pgmqp80i5ti4t35f1q24eh248m24pboehp628hqbdti4t35f1q24eh2clpn0pb3d5gmo8hc49nm4pjledhm2t35cgh3kpj1dhpmab12d5q62r39cch3kpj1dhpmab12eln68pbidhkmspb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49hmur3fe8h3k8jnd1kn8p925gh64rrccgh3kpj1dhpmavatfk00k00ia1qm4r39cd17aqrbd5q5cobcelin62003hingor5dhm6arjkcdp62t35ect66sj1ehiluqr5f4n6ip0011in6s35cdkm2r001400ohbecdk62rjkdlimst3j1800000110004qb40096qqbeclhn4ob6egt6irj6d5n6it3p08006r3mdg0020000400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i00ajdd5n6aoric5j78ej5f5iluobidlnn4nrke9kmqnrjdlkn8q39dpjlut35dlo6oobkck5000rkc5jgk007chkn6s3cc5sgg0049pgmqp80i5ti4t35f1q24eh248m24pboehp628hqbdti4t35f1q24eh2clpn0pb3d5gmo8hc49nm4pjledhm2t35cgh3kpj1dhpmab12d5q62r39cch3kpj1dhpmab12eln68pbidhkmspb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49hmur3fe8h3k8jnd1kn8p925gh64rrccgh3kpj1dhpmavatfk00k00ia1qm4r39cd17aqrbd5q5cobcelin62003hingor5dhm6arjkcdp62t35ect66sj1ehiluqr5f4n6ip0011in6s35cdkm2r001400ohbecdk62rjkdlimst3j1800000110004qb40096qqbeclhn4ob6egt6irj6d5n6it3p08006r3mdg0020000400agrfeln78080
+      Ignored_For_Permissions: []
+    proteccion_de_hierro:
+      Name: Proteccion De Hierro
+      Weight: 25.0
+      Rarity: legendary
+      Broadcast: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: a0000g002d5i0073dd5n6aoric5j78ej4clin0srcc5q6anr9e9nmsnrfe9igk003ehgme2g00ti6isrgdhgni2000h762rb5044nm8jkcls788hq48h2o8j5f1q74o9279dnm8jkcls788hq4986usjkclhm6qbfdog24b12dth6ctbjcdgn8pb448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12cdnmorri48t24p31e9llus3le9o6op925gh64rrccgh3kpj1dhpmav9cfch78pboegh3k8j4ckg24b12d5q62r39cch3kpj1dhpmab12cdnmorri48t24p31e9llupric5si4v9cfch78pboegh3k8i8d5in4sjf48m24qbkc5m6iop279j62r3jckm24orfdhnn48hq49rmgqbkckh2o8j2dtm688hqehp7apbtblugi0049hnn4p880000008131ti4t35f1q24eh248m24pboehp628hqbdti4t35f1q24eh2a1nn4t35d9ii0tbec4g68qbjehgmsor9c4g68p9048m24rr2cpqn6or1ehim88hqcpgmosr55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24orfdhnn48hq49i62sjbbtjn4obp48m24ojfdhi24ej6c5m76pbt5hti4t35f1q24eh264r7gc9m40h2o8j9ehgmoqb348t6cobcediio8j3dtm6ush278h7eq39ehii4b12c9nmop1279q74tb5fkm7m8jkcls788hq49h6orrbclpi4b12d5q62r39cch3kpj1dhpmab12cdnmorri48t24p31e9llupric5si4vatfk00k00ia1qm4r39cd17aqrbd5q5cobcelin608039o74rrkclhn8qbfdppn8rreclpjkqbje1pm4r3fcdlg20000400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i0073dd5n6aoric5j78ej4clin0srcc5q6anr9e9nmsnrfe9igk003ehgme2g02987aojcd5hk4tbbddkn8lj1dhqmaso100d70sjfehim6t39dtn76t3fdpin6ej9edo76ojcdthmm0801800ep39edo6oobp10008jj1dlig22br49q6au3k48t248hc49ingt3ic4h3kmrr49q6au3k48t24k3fe9q6aor3d5nms8125gh6uoj6elpm6obkcli24ej6c5m76p9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh66rrcdtp24eh2chgn4qqve1qn4s3cckh2o8j2dtm688hqcpgmosr5fkm7m8jkcls788hq49i6a8125gh6it31dhkm68hqcpgmosr55gh66rrcdtp24eh2chgn4qqvctp62u92fkm7m8jkcls788hq4946ipbie9ni4b12d5q62r39cch3kpj1dhpmab12cdnmorri48t24tr8d5q6a8hc49h6ur3448t78sjlclulqv890024orrick400000040hgup2ehingt1278h24b12cls78sj148t5mup2ehingt1278h50rriehimkp90eln62834d5pn8obecdkm2834ckg24b12dth6ctbjcdgn8pb448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12cdnmorri48t24p31e9llupric5si4b12c9nmop1279j62r3jcluioup2ehingt1278h32djo64r208hc49kn8obcd5hi4ej6c5m76p9c49hmur3fe8h3k8jnd1kn8p925gh64rrccgh3kt3ielinqb3r49q6au3k48t24ojcdtlmasp25gh6it31dhkm68hqcpgmosr55gh66rrcdtp24eh2chgn4qqvctp62u92flenq0000400agrfeln78080
+      Ignored_For_Permissions: []
+Animation_Config: csgo
+Last_Opener: AstroMCO
+Last_Reward: '15'
+Item:
+  Material: TIDE_ARMOR_TRIM_SMITHING_TEMPLATE
+  Name: '&3&lPoco Comun &7Key'
+  Lore:
+  - '&8key para abrir caja &3&lPoco Comun'
+  Enchants:
+    mending: 1
+  Item_Flags:
+  - HIDE_ENCHANTS
+  - HIDE_POTION_EFFECTS

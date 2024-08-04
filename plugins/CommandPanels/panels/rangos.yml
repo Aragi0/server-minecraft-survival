@@ -1,0 +1,298 @@
+panels:
+  rangos:
+    perm: default
+    rows: 5
+    title: "      &8&k0 &8Sistema de Rangos &8&k0"
+    empty: BLACK_STAINED_GLASS_PANE
+    commands:
+      - rangos
+    item:
+# sabio
+      "12":
+        material: BLADE_POTTERY_SHERD
+        stack: 1
+        name: §8§l[§a§lSABIO§8§l]§r
+        lore:
+          - ""
+          - "&7Requerimientos:"
+          - "  &8» &f$2000"
+          - "&7Veneficios:"
+          - "  &8» rerol de miciones diarias"
+          - "  &8» KIT &8&l[&a&lSABIO&8&l]&r"
+          - "     #4ef9d7&n¡Click para desbloquear!"
+        commands:
+          - "msg= &8[&c&lServer&8] &cNo cumples con los requisitos."
+        has0:
+          value0: "%luckperms_inherits_group_sabio%"
+          compare0: "yes"
+          material: BLADE_POTTERY_SHERD
+          enchanted:
+            - infinity 1
+          stack: 1
+          name: "&8&l[&a&lSABIO&8&l]&r"
+          lore:
+            - ""
+            - "#4ef9d7¡Desbloqueado!"
+        has1:
+          value0: "%vault_rank%"
+          compare0: "default AND"
+          value1: "%vault_eco_balance% ISGREATER"
+          compare1: "2000"
+          material: LIME_STAINED_GLASS_PANE
+          stack: 1
+          name: "&8&l[&a&lSABIO&8&l]&r"
+          lore:
+            - ""
+            - "&7Requerimientos:"
+            - "  &8» &f$2000 &a✔"
+            - "  &8» &fSer &8&l[&lSIN&8&l>&r &a✔"
+            - "&7Veneficios:"
+            - "  &8» Rerol &e/dailyquests"
+            - "  &8» KIT &8&l[&a&lSABIO&8&l]&r"
+            - ""
+            - "#4ef9d7&n¡Click para desbloquear!"
+          commands:
+            - "console= eco take %cp-player-name% 2000"
+            - "console= lp user %cp-player-name% parent set sabio"
+            - "sound= ENTITY_WITHER_DEATH 10 1.5"
+            - "msg= &8[&c&lServer&8] &fAhora eres &8&l[&a&lSABIO&8&l]&r"
+        hasnot:
+          value: "%luckperms_inherits_group_hero%||%luckperms_inherits_group_prins%||%luckperms_inherits_group_rey%||%luckperms_inherits_group_ente%||%luckperms_inherits_group_god%"
+          compare: "yes"
+# hero
+      "14":
+        material: ANGLER_POTTERY_SHERD
+        stack: 1
+        name: §8§l[§9§lHERO§8§l]§r
+        lore:
+          - ""
+          - "&7Requerimientos:"
+          - "  &8» &f$5000"
+          - "  &8» &fSer &8&l[&a&lSABIO&8&l]&r"
+          - ""
+          - "#4ef9d7&n¡Click para desbloquear!"
+        commands:
+          - "msg= &8[&c&lServer&8] &cNo cumples con los requisitos."
+        has0:
+          value0: "%luckperms_inherits_group_hero%"
+          compare0: "yes"
+          material: ANGLER_POTTERY_SHERD
+          enchanted:
+            - infinity 1
+          stack: 1
+          name: "&8&l[&9&lHERO&8&l]&r"
+          lore:
+            - ""
+            - "#4ef9d7¡Desbloqueado!"
+        has1:
+          value0: "%vault_rank%"
+          compare0: "sabio AND"
+          value1: "%vault_eco_balance% ISGREATER"
+          compare1: "5000"
+          material: LIME_STAINED_GLASS_PANE
+          stack: 1
+          name: "&8&l[&9&lHERO&8&l]&r"
+          lore:
+            - ""
+            - "&7Requerimientos:"
+            - "  &8» &f$5000 &a✔"
+            - "  &8» &fSer &8&l[&a&lSABIO&8&l]&r &a✔"
+            - ""
+            - "#4ef9d7&n¡Click para desbloquear!"
+          commands:
+            - "console= eco take %cp-player-name% 5000"
+            - "console= lp user %cp-player-name% parent set hero"
+            - "sound= ENTITY_WITHER_DEATH 10 1.5"
+            - "msg= &8[&c&lServer&8] &fAhora eres &8&l[&9&lHERO&8&l]&r"
+        hasnot:
+          value: "%luckperms_inherits_group_prins%||%luckperms_inherits_group_rey%||%luckperms_inherits_group_ente%||%luckperms_inherits_group_god%"
+          compare: "yes"
+# prins
+      "16":
+        material: SHEAF_POTTERY_SHERD
+        stack: 1
+        name: "&8&l[&6&lPRINS&8&l]&r"
+        lore:
+          - ""
+          - "&7Requerimientos:"
+          - "  &8» &f$12000"
+          - "  &8» &fSer &8&l[&9&lHERO&8&l]&r"
+          - ""
+          - "#4ef9d7&n¡Click para desbloquear!"
+        commands:
+          - "msg= &8[&c&lServer&8] &cNo cumples con los requisitos."
+        has0:
+          value0: "%luckperms_inherits_group_prins%"
+          compare0: "yes"
+          material: SHEAF_POTTERY_SHERD
+          enchanted:
+            - infinity 1
+          stack: 1
+          name: "&8&l[&6&lPRINS&8&l]&r"
+          lore:
+            - ""
+            - "#4ef9d7¡Desbloqueado!"
+        has1:
+          value0: "%vault_rank%"
+          compare0: "hero AND"
+          value1: "%vault_eco_balance% ISGREATER"
+          compare1: "12000"
+          material: LIME_STAINED_GLASS_PANE
+          stack: 1
+          name: "&8&l[&6&lPRINS&8&l]&r"
+          lore:
+            - ""
+            - "&7Requerimientos:"
+            - "  &8» &f$12000 &a✔"
+            - "  &8» &fSer &8&l[&9&lHERO&8&l]&r &a✔"
+            - ""
+            - "#4ef9d7&n¡Click para desbloquear!"
+          commands:
+            - "console= eco take %cp-player-name% 12000"
+            - "console= lp user %cp-player-name% parent set prins"
+            - "sound= ENTITY_WITHER_DEATH 10 1.5"
+            - "msg= &8[&c&lServer&8] &fAhora eres &8&l[&6&lPRINS&8&l]&r"
+        hasnot:
+          value: "%luckperms_inherits_group_rey%||%luckperms_inherits_group_ente%||%luckperms_inherits_group_god%"
+          compare: "yes"
+# rey
+      "29":
+        material: PRIZE_POTTERY_SHERD
+        stack: 1
+        name: "&8&l[&e&lREY&8&l]&r"
+        lore:
+          - ""
+          - "&7Requerimientos:"
+          - "  &8» &f$27000"
+          - "  &8» &fSer &8&l[&6&lPRINS&8&l]&r"
+          - ""
+          - "#4ef9d7&n¡Click para desbloquear!"
+        commands:
+          - "msg= &8[&c&lServer&8] &cNo cumples con los requisitos."
+        has0:
+          value0: "%luckperms_inherits_group_rey%"
+          compare0: "yes"
+          material: PRIZE_POTTERY_SHERD
+          enchanted:
+            - infinity 1
+          stack: 1
+          name: "&8&l[&e&lREY&8&l]&r"
+          lore:
+            - ""
+            - "#4ef9d7¡Desbloqueado!"
+        has1:
+          value0: "%vault_rank%"
+          compare0: "prins AND"
+          value1: "%vault_eco_balance% ISGREATER"
+          compare1: "27000"
+          material: LIME_STAINED_GLASS_PANE
+          stack: 1
+          name: "&8&l[&e&lREY&8&l]&r"
+          lore:
+            - ""
+            - "&7Requerimientos:"
+            - "  &8» &f$27000 &a✔"
+            - "  &8» &fSer &8&l[&6&lPRINS&8&l]&r &a✔"
+            - ""
+            - "#4ef9d7&n¡Click para desbloquear!"
+          commands:
+            - "console= eco take %cp-player-name% 27000"
+            - "console= lp user %cp-player-name% parent set rey"
+            - "sound= ENTITY_WITHER_DEATH 10 1.5"
+            - "msg= &8[&c&lServer&8] &fAhora eres &8&l[&e&lREY&8&l]&r"
+        hasnot:
+          value: "%luckperms_inherits_group_ente%||%luckperms_inherits_group_god%"
+          compare: "yes"
+# ente
+      "31":
+        material: SKULL_POTTERY_SHERD
+        stack: 1
+        name: "&8&l[&7&lENTE&8&l]&r"
+        lore:
+          - ""
+          - "&7Requerimientos:"
+          - "  &8» &f$58000"
+          - "  &8» &fSer &8&l[&e&lREY&8&l]&r"
+          - ""
+          - "#4ef9d7&n¡Click para desbloquear!"
+        commands:
+          - "msg= &8[&c&lServer&8] &cNo cumples con los requisitos."
+        has0:
+          value0: "%luckperms_inherits_group_ente%"
+          compare0: "yes"
+          material: SKULL_POTTERY_SHERD
+          enchanted:
+            - infinity 1
+          stack: 1
+          name: "&8&l[&7&lENTE&8&l]&r"
+          lore:
+            - ""
+            - "#4ef9d7¡Desbloqueado!"
+        has1:
+          value0: "%vault_rank%"
+          compare0: "rey AND"
+          value1: "%vault_eco_balance% ISGREATER"
+          compare1: "58000"
+          material: LIME_STAINED_GLASS_PANE
+          stack: 1
+          name: "&8&l[&7&lENTE&8&l]&r"
+          lore:
+            - ""
+            - "&7Requerimientos:"
+            - "  &8» &f$58000 &a✔"
+            - "  &8» &fSer &8&l[&e&lREY&8&l]&r &a✔"
+            - ""
+            - "#4ef9d7&n¡Click para desbloquear!"
+          commands:
+            - "console= eco take %cp-player-name% 58000"
+            - "console= lp user %cp-player-name% parent set ente"
+            - "sound= ENTITY_WITHER_DEATH  10 1.5"
+            - "msg= &8[&c&lServer&8] &fAhora eres &8&l[&7&lENTE&8&l]&r"
+        hasnot:
+          value: "%luckperms_inherits_group_god%"
+          compare: "yes"
+# kami
+      "33":
+        material: ARMS_UP_POTTERY_SHERD
+        stack: 1
+        name: "&8&l[&5&lKAMI&8&l]&r"
+        lore:
+          - ""
+          - "&7Requerimientos:"
+          - "  &8» &f$125000"
+          - "  &8» &fSer &8&l[&7&lENTE&8&l]&r"
+          - ""
+          - "#4ef9d7&n¡Click para desbloquear!"
+        commands:
+          - "msg= &8[&c&lServer&8] &cNo cumples con los requisitos."
+        has0:
+          value0: "%luckperms_inherits_group_kami%"
+          compare0: "yes"
+          material: ARMS_UP_POTTERY_SHERD
+          enchanted:
+            - infinity 1
+          stack: 1
+          name: "&8&l[&5&lKAMI&8&l]&r"
+          lore:
+            - ""
+            - "#4ef9d7¡Desbloqueado!"
+        has1:
+          value0: "%vault_rank%"
+          compare0: "ente AND"
+          value1: "%vault_eco_balance% ISGREATER"
+          compare1: "125000"
+          material: LIME_STAINED_GLASS_PANE
+          stack: 1
+          name: "&8&l[&5&lKAMI&8&l]&r"
+          lore:
+            - ""
+            - "&7Requerimientos:"
+            - "  &8» &f$125000 &a✔"
+            - "  &8» &fSer &8&l[&7&lENTE&8&l]&r &a✔"
+            - ""
+            - "#4ef9d7&n¡Click para desbloquear!"
+          commands:
+            - "console= eco take %cp-player-name% 125000"
+            - "console= lp user %cp-player-name% parent set kami"
+            - "sound= ENTITY_WITHER_DEATH 10 1.5"
+            - "msg= &8[&c&lServer&8] &fAhora eres &8&l[&5&lKAMI&8&l]&r"

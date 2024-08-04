@@ -1,0 +1,41 @@
+{
+  "configVersion": 2,
+  "plugin": {
+    "enabled": true,
+    "bStats": true,
+    "ignoreUpdates": false
+  },
+  "recover": {
+    "recoverSpeed": 3,
+    "recoverDelay": 100,
+    "blockRecoverSound": "BLOCK_ROOTED_DIRT_PLACE",
+    "blockBlacklist": []
+  },
+  "target": [
+    {
+      "type": "WORLD",
+      "ignore": true,
+      "whitelist": [],
+      "blacklist": []
+    },
+    {
+      "type": "ENTITY",
+      "ignore": true,
+      "entityTypes": [
+        "CREEPER",
+        "PRIMED_TNT"
+      ]
+    },
+    {
+      "type": "HEIGHT_RANGE",
+      "ignore": true,
+      "from": -64,
+      "to": 320
+    },
+    {
+      "type": "HEIGHT_FIXED",
+      "ignore": true,
+      "fixed": 32
+    }
+  ]
+}

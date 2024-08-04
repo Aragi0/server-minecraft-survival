@@ -1,0 +1,475 @@
+storageSize: 1
+shopfrontSize: 0
+type: ADMIN
+duration: infinite
+cost: 0
+expire: 0
+times_rented: 1
+collected_money: !!float '0'
+require_permission: false
+stats:
+  items_sold: 2003
+  items_bought: 0
+  money_earned: 471776.0
+  money_spent: 0.0
+entity:
+  profession: WEAPONSMITH
+  name: §8Tienda §d§lEspecial
+  location:
+    x: 281.5
+    y: 72.0
+    z: -108.5
+    world: world
+items_for_sale:
+  '0':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3700
+      type: BLADE_POTTERY_SHERD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"text":"","extra":[{"text":"Billete","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gold","bold":true}]}'
+        lore:
+        - '{"text":"","extra":[{"text":"Se usa para comprar y","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false}]}'
+        - '{"text":"","extra":[{"text":"vender cosa","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false}]}'
+        - '{"text":"","extra":[{"text":"( ","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"se
+          compra en Tienda ","italic":false,"color":"dark_gray"},{"text":"Especial
+          ","italic":false,"color":"light_purple"},{"text":")","italic":false,"color":"gray"}]}'
+        enchants:
+          ARROW_INFINITE: 1
+        repair-cost: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+    amount: 1
+    trade_amount: 0
+    price: 200.0
+    buy_price: 200.0
+    mode: SELL
+    buy_limit: 0
+    command: []
+    server_trades: 1807
+    limit_mode: PLAYER
+    cooldown: never
+    discount:
+      amount: 0
+      end: 0
+    next_reset: 0
+    limits:
+      12b1c55e-207d-3556-9edf-d7760162d888: 52
+      606fc01e-4583-39ef-9685-e2c787258ab3: 128
+      76e8e215-45f8-3bab-88b7-f1c06238849b: 1447
+      00000000-0000-0000-0009-01fcf383069d: 180
+  '7':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3700
+      type: DIAMOND_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: ARMOR
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 4
+          DURABILITY: 3
+        trim:
+          material: minecraft:netherite
+          pattern: minecraft:coast
+    amount: 1
+    trade_amount: 0
+    price: 3000.0
+    buy_price: 3000.0
+    mode: SELL
+    buy_limit: 0
+    command: []
+    server_trades: 0
+    limit_mode: PLAYER
+    cooldown: never
+    discount:
+      amount: 0
+      end: 0
+    next_reset: 0
+  '8':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3700
+      type: DIAMOND_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"text":"","extra":[{"text":"Diamond ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"aqua","bold":true},{"text":"Sword
+          +","italic":false,"color":"dark_gray","bold":false}]}'
+        enchants:
+          FIRE_ASPECT: 3
+          MENDING: 1
+          DURABILITY: 5
+    amount: 1
+    trade_amount: 0
+    price: 5000.0
+    buy_price: 5000.0
+    mode: SELL
+    buy_limit: 0
+    command: []
+    server_trades: 0
+    limit_mode: PLAYER
+    cooldown: never
+    discount:
+      amount: 0
+      end: 0
+    next_reset: 0
+  '9':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3700
+      type: PRISMARINE_CRYSTALS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"text":"","extra":[{"text":"Diamante","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"aqua","bold":true}]}'
+        lore:
+        - '{"text":"","extra":[{"text":"Item Mas valioso que el ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Billete
+          ","italic":false,"color":"gold"},{"text":"con","italic":false,"color":"dark_gray"}]}'
+        - '{"text":"","extra":[{"text":"suficientes puedes comprar ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"Protecciones","italic":false,"color":"light_purple"}]}'
+        - '{"text":"","extra":[{"text":"( ","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"se
+          compra en Tienda ","italic":false,"color":"dark_gray"},{"text":"Especial
+          ","italic":false,"color":"light_purple"},{"text":")","italic":false,"color":"gray"}]}'
+        enchants:
+          ARROW_INFINITE: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_UNBREAKABLE
+        Unbreakable: true
+    amount: 1
+    trade_amount: 0
+    price: 1200.0
+    buy_price: 984.000
+    mode: SELL
+    buy_limit: 0
+    command: []
+    server_trades: 189
+    limit_mode: PLAYER
+    cooldown: never
+    discount:
+      amount: 18
+      end: 1748588400
+    next_reset: 0
+    limits:
+      12b1c55e-207d-3556-9edf-d7760162d888: 18
+      606fc01e-4583-39ef-9685-e2c787258ab3: 64
+      76e8e215-45f8-3bab-88b7-f1c06238849b: 107
+  '16':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3700
+      type: DIAMOND_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: ARMOR
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 4
+          DURABILITY: 3
+        trim:
+          material: minecraft:netherite
+          pattern: minecraft:silence
+    amount: 1
+    trade_amount: 0
+    price: 4000.0
+    buy_price: 4000.0
+    mode: SELL
+    buy_limit: 0
+    command: []
+    server_trades: 0
+    limit_mode: PLAYER
+    cooldown: never
+    discount:
+      amount: 0
+      end: 0
+    next_reset: 0
+  '17':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3700
+      type: DIAMOND_PICKAXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"text":"","extra":[{"text":"Diamond ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"aqua","bold":true},{"text":"Pickaxe
+          +","italic":false,"color":"dark_gray","bold":false}]}'
+        enchants:
+          LOOT_BONUS_BLOCKS: 4
+          MENDING: 1
+          DURABILITY: 5
+    amount: 1
+    trade_amount: 0
+    price: 5000.0
+    buy_price: 5000.0
+    mode: SELL
+    buy_limit: 0
+    command: []
+    server_trades: 0
+    limit_mode: PLAYER
+    cooldown: never
+    discount:
+      amount: 0
+      end: 0
+    next_reset: 0
+  '25':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3700
+      type: DIAMOND_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: ARMOR
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 4
+          DURABILITY: 3
+        trim:
+          material: minecraft:netherite
+          pattern: minecraft:dune
+    amount: 1
+    trade_amount: 0
+    price: 3000.0
+    buy_price: 3000.0
+    mode: SELL
+    buy_limit: 0
+    command: []
+    server_trades: 0
+    limit_mode: PLAYER
+    cooldown: never
+    discount:
+      amount: 0
+      end: 0
+    next_reset: 0
+  '26':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3700
+      type: DIAMOND_AXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"text":"","extra":[{"text":"Diamond ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"aqua","bold":true},{"text":"Axe
+          +","italic":false,"color":"dark_gray","bold":false}]}'
+        enchants:
+          MENDING: 1
+          DAMAGE_ALL: 6
+          DURABILITY: 5
+    amount: 1
+    trade_amount: 0
+    price: 6000.0
+    buy_price: 6000.0
+    mode: SELL
+    buy_limit: 0
+    command: []
+    server_trades: 0
+    limit_mode: PLAYER
+    cooldown: never
+    discount:
+      amount: 0
+      end: 0
+    next_reset: 0
+  '34':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3700
+      type: DIAMOND_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: ARMOR
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 4
+          DURABILITY: 3
+        trim:
+          material: minecraft:netherite
+          pattern: minecraft:coast
+    amount: 1
+    trade_amount: 0
+    price: 3000.0
+    buy_price: 3000.0
+    mode: SELL
+    buy_limit: 0
+    command: []
+    server_trades: 0
+    limit_mode: PLAYER
+    cooldown: never
+    discount:
+      amount: 0
+      end: 0
+    next_reset: 0
+  '35':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3700
+      type: DIAMOND_SHOVEL
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"text":"","extra":[{"text":"Diamond ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"aqua","bold":true},{"text":"Shovel
+          +","italic":false,"color":"dark_gray","bold":false}]}'
+        enchants:
+          DIG_SPEED: 6
+          MENDING: 1
+          DURABILITY: 5
+    amount: 1
+    trade_amount: 0
+    price: 3000.0
+    buy_price: 3000.0
+    mode: SELL
+    buy_limit: 0
+    command: []
+    server_trades: 0
+    limit_mode: PLAYER
+    cooldown: never
+    discount:
+      amount: 0
+      end: 0
+    next_reset: 0
+  '38':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3700
+      type: GOLDEN_CARROT
+      amount: 32
+    amount: 32
+    trade_amount: 0
+    price: 150.0
+    buy_price: 150.0
+    mode: SELL
+    buy_limit: 0
+    command: []
+    server_trades: 0
+    limit_mode: PLAYER
+    cooldown: never
+    discount:
+      amount: 0
+      end: 0
+    next_reset: 0
+  '39':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3700
+      type: BAKED_POTATO
+      amount: 32
+    amount: 32
+    trade_amount: 0
+    price: 50.0
+    buy_price: 50.0
+    mode: SELL
+    buy_limit: 0
+    command: []
+    server_trades: 0
+    limit_mode: PLAYER
+    cooldown: never
+    discount:
+      amount: 0
+      end: 0
+    next_reset: 0
+  '40':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3700
+      type: FIREWORK_ROCKET
+      amount: 64
+      meta:
+        ==: ItemMeta
+        meta-type: FIREWORK
+        power: 3
+    amount: 64
+    trade_amount: 0
+    price: 300.0
+    buy_price: 300.0
+    mode: SELL
+    buy_limit: 0
+    command: []
+    server_trades: 0
+    limit_mode: PLAYER
+    cooldown: never
+    discount:
+      amount: 0
+      end: 0
+    next_reset: 0
+  '41':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3700
+      type: WITHER_SKELETON_SKULL
+    amount: 1
+    trade_amount: 0
+    price: 6000.0
+    buy_price: 6000.0
+    mode: SELL
+    buy_limit: 0
+    command: []
+    server_trades: 0
+    limit_mode: PLAYER
+    cooldown: never
+    discount:
+      amount: 0
+      end: 0
+    next_reset: 0
+  '42':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3700
+      type: TOTEM_OF_UNDYING
+    amount: 1
+    trade_amount: 0
+    price: 1500.0
+    buy_price: 1050.00
+    mode: SELL
+    buy_limit: 0
+    command: []
+    server_trades: 0
+    limit_mode: PLAYER
+    discount:
+      amount: 30
+      end: 1748588400
+    next_reset: 0
+  '43':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3700
+      type: ELYTRA
+    amount: 1
+    trade_amount: 0
+    price: 20000.0
+    buy_price: 20000.0
+    mode: SELL
+    buy_limit: 0
+    command: []
+    server_trades: 2
+    limit_mode: PLAYER
+    discount:
+      amount: 0
+      end: 0
+    next_reset: 0
+    limits:
+      76e8e215-45f8-3bab-88b7-f1c06238849b: 2
+  '44':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3700
+      type: DIAMOND_HOE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"text":"","extra":[{"text":"Diamond ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"aqua","bold":true},{"text":"Hoe
+          +","italic":false,"color":"dark_gray","bold":false}]}'
+        enchants:
+          LOOT_BONUS_BLOCKS: 4
+          MENDING: 1
+          DURABILITY: 5
+    amount: 1
+    trade_amount: 0
+    price: 3000.0
+    buy_price: 3000.0
+    mode: SELL
+    buy_limit: 0
+    command: []
+    server_trades: 0
+    limit_mode: PLAYER
+    cooldown: never
+    discount:
+      amount: 0
+      end: 0
+    next_reset: 0
